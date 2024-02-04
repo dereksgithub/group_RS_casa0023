@@ -1,9 +1,9 @@
 ---
-title: "Presentation Ninja"
-subtitle: "⚔<br/>with xaringan"
-author: "Yihui Xie"
-institute: "RStudio, PBC"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
+title: "Group Assessment 0023 Title to be replaced"
+subtitle: "Sub-title to be replaced"
+author: "Sheng Hu, Zhaowei Cui, Lunan Wei, Mengyu Ding"
+institute: "CASA, UCL"
+date: "2024/02/04 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     lib_dir: libs
