@@ -1,11 +1,12 @@
 ---
-title: "Group Assessment 0023 Rooftop Farming and Remote Sensing"
-subtitle: "Rooftop Farming Potential Identification with Remote Sensing"
+title: "Rooftop Farming and Remote Sensing"
+subtitle: "Rooftop Farming Potential Identification for Jakarta, Indonesia"
 author: "Sheng Hu, Zhaowei Cui, Lunan Wei, Mengyu Ding"
 institute: "CASA, UCL"
 date: "2024/02/04 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
+    css: xaringan-themer.css
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -13,7 +14,25 @@ output:
       countIncrementalSlides: false
 ---
 
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#1c2653",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Jakarta_vue_par_satellite_en_2022.jpg/640px-Jakarta_vue_par_satellite_en_2022.jpg)
+
+class: cover
+
+# Jakarta Rooftop Farming/Gardening Analysis
+
+
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -21,7 +40,7 @@ options(htmltools.dir.version = FALSE)
 
 ???
 
-Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
+Image credit: [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Jakarta_vue_par_satellite_en_2022.jpg/640px-Jakarta_vue_par_satellite_en_2022.jpg)
 
 ---
 class: center, middle
@@ -74,6 +93,23 @@ class: center, bottom, inverse
 
 ---
 
+# Data Value Chain
+
+
+
+
+
+---
+
+# Project Workflow
+
+
+---
+
+# Project Timeline
+
+
+---
 # Hello Ninja
 
 As a presentation ninja, you certainly should not be satisfied by the "Hello World" example. You need to understand more about two things:
