@@ -40,6 +40,8 @@ options(htmltools.dir.version = FALSE)
 
 ???
 
+Theme colours are from [Karthik Ram's](https://github.com/karthik) [Wes Anderson Palettes](https://github.com/karthik/wesanderson)
+
 Image credit: [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Jakarta_vue_par_satellite_en_2022.jpg/640px-Jakarta_vue_par_satellite_en_2022.jpg)
 
 ---
