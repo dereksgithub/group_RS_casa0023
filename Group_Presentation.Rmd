@@ -95,6 +95,49 @@ class: center, bottom, inverse
 
 ---
 
+# Group Assessment Remote Sensing
+
+
+
+
+
+---
+
+# Remote Sensing for Rooftop Farming
+
+## City:
+Jakarta, Indonesia 
+
+## Problem defign:
+
+Carbon Emission: Net Zero Emissions Target by 2050.
+
+Heat Island:
+
+Air Pollution: The heavy traffic congestion in Jakarta contributes to poor air quality, with high levels of vehicle emissions and industrial pollutants. This pollution poses health risks to residents and has adverse effects on the environment.
+
+Food Insecurity: Despite being a bustling metropolis, Jakarta still faces issues of food insecurity, particularly among low-income communities. Limited access to nutritious food, high food prices, and inadequate distribution systems contribute to this problem.  The city experiences a reduction in agricultural land converted into settlements and industrial land, as well as soil deterioration.
+
+##Policies:
+
+In 2017, the city of Jakarta initiated a peri-urban farming program under its Urban Agriculture Program that aimed to achieve sustainable agricultural production, rural economic sustainability and long-term environmental sustainability.
+
+
+
+Gubernatorial Regulation number 14/2018 on Implementation of Urban Farming and Great Design of Urban Farming 2018-2030. (6)
+
+
+
+President Regulation No. 60 2020 on urban farming can also preserve around 30% of open spaces, both for public use (20%) and for private use (10%). (8)
+
+
+Medium-Term Regional Medium-Term Plan (RPJMD) for 2007-2012, Jakarta (1) Spatial Planning Jakarta 2030. (1)
+
+
+
+
+---
+
 # Data Value Chain
 
 
