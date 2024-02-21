@@ -63,7 +63,7 @@ class: inverse, center, middle
 Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
 
 ```{r eval=FALSE, tidy=FALSE}
-remotes::install_github("yihui/xaringan")
+remotes::install_github("yihui/xaringan", force=TRUE)
 ```
 
 --
@@ -104,12 +104,18 @@ class: center, bottom, inverse
 ---
 
 # Project Workflow
-
+data collection
 
 ---
 
 # Project Timeline
 
+
+---
+
+# Limitation
+
+1. Push test
 
 ---
 # Hello Ninja
