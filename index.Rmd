@@ -138,7 +138,11 @@ Medium-Term Regional Medium-Term Plan (RPJMD) for 2007-2012, Jakarta (1) Spatial
 
 ---
 
-# Data Value Chain
+# Workpack Breakdown
+
+
+
+<img src="images/WP_Breakdown.png" height="460px"/>
 
 
 
@@ -146,8 +150,55 @@ Medium-Term Regional Medium-Term Plan (RPJMD) for 2007-2012, Jakarta (1) Spatial
 
 ---
 
-# Project Workflow
-data collection
+# Project Data Overview
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+
+.panelset[
+.panel[.panel-name[Data Value]
+
+```{r echo=FALSE}
+xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagreen")
+```
+
+
+.pull-left[
+    <img src="images/data_value_chain.png" height="300px"/>
+    Land cover type of Bucharest
+    ]
+
+.pull-right[
+
+- datavalue chain 1
+
+- datavalue chain 2 
+
+- datavalue chain 3
+]]
+
+.panel[.panel-name[Data flow]
+
+.pull-left[
+
+
+- Data flow of our proposes work
+- point 2
+- point 3
+
+]
+
+.pull-right[
+
+
+  <img src="images/dataflow.png" height="250px"/>
+ 
+  
+]]
+
+]
+
+
 
 ---
 
