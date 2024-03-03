@@ -204,7 +204,35 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagre
 
 # Project Timeline
 
+---
 
+## SWOT Analysis
+
+### Strengths:
+Strengths:
+1. Innovative Use of Technology: Advanced remote sensing provides a meticulous approach for identifying optimal locations for rooftop farming, offering a scalable solution for urban agriculture.
+2. Environmental Benefits: The initiative significantly mitigates the urban heat island effect, fosters air quality improvement, and promotes biodiversity, aligning with environmental conservation efforts.
+3. Socio-economic Impact: Encourages community participation in urban agriculture, addressing food insecurity, stimulating local economies, and creating employment in green sectors.
+4. Sustainability and Resilience: Enhances Jakarta's ecological resilience, advocating sustainable development and local food systems that are robust against climate change.
+
+### Weaknesses:
+1. Technical Challenges: Demands substantial expertise and investment for the deployment and maintenance of remote sensing technology, which may limit initial progress.
+2. Operational Maintenance: The ongoing upkeep of agricultural installations and technical apparatus necessitates a comprehensive logistical framework.
+3. Stakeholder Engagement: Success is contingent on active collaboration with property owners and local authorities, whose support is crucial for implementation.
+4. Data Management: Managing and securing the sensitive data collected through remote sensing is imperative to maintain privacy and adhere to regulations.
+
+### Opportunities:
+Opportunities:
+1. Collaborative Support: Prospects for alliances with government bodies and NGOs could provide financial aid and policy backing, propelling project momentum.
+2. Scalable Model: The project blueprint offers a replicable model for urban centers, with potential international applicability, enhancing global urban sustainability.
+3. Research and Development: Opens avenues for innovation in precision agriculture, driving technological advancements and academic inquiry.
+4. Educational Impact: Elevates community consciousness regarding ecological practices, reinforcing the significance of urban agriculture and local food sovereignty.
+
+### Threats:
+1. Regulatory Complexities: Urban agriculture intersects with complex legal frameworks, requiring adept navigation of regulations and building codes.
+2. Climate Vulnerability: The project is susceptible to the erratic nature of climate change, which could affect the longevity and productivity of rooftop gardens.
+3. Technological Advancements: The pace of technological change necessitates continuous investment to keep the remote sensing apparatus current and effective.
+4. Economic Sensitivity: Financial volatility can influence the availability of resources for project scaling and operation, making economic strategy a pivotal concern.
 ---
 
 # Limitation
