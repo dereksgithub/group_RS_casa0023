@@ -235,6 +235,24 @@ Opportunities:
 4. Economic Sensitivity: Financial volatility can influence the availability of resources for project scaling and operation, making economic strategy a pivotal concern.
 ---
 
+## Feasibility Analysis
+
+## Technical Feasibility:
+The project utilizes high-resolution remote sensing technologies capable of identifying suitable rooftops for urban farming in Jakarta. These technologies enable the precise analysis of structural integrity, sunlight exposure, and potential water runoff, ensuring that only rooftops that meet specific agricultural criteria are selected.
+
+## Economic Feasibility:
+The project's initial phase requires a prudent investment in remote sensing technologies and infrastructure enhancements to facilitate rooftop agriculture. This forward-looking investment is anticipated to be offset by the sustainable revenue streams from the urban farming operations, augmented property values, and environmental benefits that align with the city's ecological objectives. The fiscal strategy is constructed to capitalize on these multiple avenues of potential economic return while contributing positively to the urban ecosystem.
+
+## Legal and Regulatory Feasibility:
+The initiative adheres to the existing urban agricultural policies in Jakarta and will operate within the framework of local zoning laws. Efforts will be made to expedite the permit process and ensure that all farming activities conform to the stipulated urban planning guidelines.
+
+## Operational Feasibility:
+Operationally, the project will establish a streamlined system for the maintenance and management of rooftop farms. This includes setting up a dedicated team for the cultivation and distribution of produce, ensuring that the daily functioning of the farms is both efficient and sustainable.
+
+## Schedule Feasibility:
+The implementation timeline is structured in phases, beginning with a pilot program to test the feasibility and impact of rooftop farming. Following the pilot's success, the project will expand, with full-scale operations expected to commence within two years, factoring in all necessary preparatory and regulatory procedures.
+---
+
 # Limitation
 
 1. Push test
