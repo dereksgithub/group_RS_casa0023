@@ -162,7 +162,7 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "#C6CDF
 
 .panel[.panel-name[Gantt Chart]
 
-<img src="images/WP_Breakdown.png" height="400px"/>
+<img src="images/gantt.png" height="350px"/>
 
 ]
 
@@ -189,7 +189,7 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "#C6CDF
 ```
 
 
-<img src="images/data_value_chain.png" height="350px"/>
+<img src="images/data_value_chain.png" height="320px"/>
 
 
 
