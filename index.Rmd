@@ -189,19 +189,9 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "#C6CDF
 ```
 
 
-.pull-left[
-    <img src="images/data_value_chain.png" height="300px"/>
-    Land cover type of Bucharest
-    ]
+<img src="images/data_value_chain.png" height="350px"/>
 
-.pull-right[
 
-- datavalue chain 1
-
-- datavalue chain 2 
-
-- datavalue chain 3
-]]
 
 .panel[.panel-name[Data flow]
 
@@ -222,6 +212,7 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "#C6CDF
   
 ]]
 
+]
 ]
 
 
