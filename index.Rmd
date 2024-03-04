@@ -138,11 +138,37 @@ Medium-Term Regional Medium-Term Plan (RPJMD) for 2007-2012, Jakarta (1) Spatial
 
 ---
 
-# Workpack Breakdown
+# Project Planning
 
 
 
-<img src="images/WP_Breakdown.png" height="460px"/>
+
+
+.panelset[
+.panel[.panel-name[Workpack]
+
+```{r echo=FALSE}
+xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "#C6CDF7")
+```
+<img src="images/WP_Breakdown.png" height="380px"/>
+
+]
+
+.panel[.panel-name[WBS]
+
+<img src="images/WP_Breakdown.png" height="400px"/>
+
+]
+
+.panel[.panel-name[Gantt Chart]
+
+<img src="images/WP_Breakdown.png" height="400px"/>
+
+]
+
+
+]
+
 
 
 
@@ -159,7 +185,7 @@ xaringanExtra::use_panelset()
 .panel[.panel-name[Data Value]
 
 ```{r echo=FALSE}
-xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagreen")
+xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "#C6CDF7")
 ```
 
 
@@ -424,12 +450,7 @@ leaflet() %>% addTiles() %>% setView(-93.65, 42.0285, zoom = 17)
 
 ---
 
-```{r eval=require('DT'), tidy=FALSE}
-DT::datatable(
-  head(iris, 10),
-  fillContainer = FALSE, options = list(pageLength = 8)
-)
-```
+# 
 
 ---
 

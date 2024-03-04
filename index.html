@@ -16,13 +16,6 @@
     <script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
     <link href="libs/rstudio_leaflet/rstudio_leaflet.css" rel="stylesheet" />
     <script src="libs/leaflet-binding/leaflet.js"></script>
-    <link href="libs/datatables-css/datatables-crosstalk.css" rel="stylesheet" />
-    <script src="libs/datatables-binding/datatables.js"></script>
-    <link href="libs/dt-core/css/jquery.dataTables.min.css" rel="stylesheet" />
-    <link href="libs/dt-core/css/jquery.dataTables.extra.css" rel="stylesheet" />
-    <script src="libs/dt-core/js/jquery.dataTables.min.js"></script>
-    <link href="libs/crosstalk/css/crosstalk.min.css" rel="stylesheet" />
-    <script src="libs/crosstalk/js/crosstalk.min.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
@@ -42,7 +35,7 @@ class: center, middle, inverse, title-slide
 ### CASA, UCL
 ]
 .date[
-### 2024/02/04 (updated: 2024-03-02)
+### 2024/02/04 (updated: 2024-03-04)
 ]
 
 ---
@@ -163,11 +156,35 @@ Medium-Term Regional Medium-Term Plan (RPJMD) for 2007-2012, Jakarta (1) Spatial
 
 ---
 
-# Workpack Breakdown
+# Project Planning
 
 
 
-&lt;img src="images/WP_Breakdown.png" height="460px"/&gt;
+
+
+.panelset[
+.panel[.panel-name[Workpack]
+
+<style>.panelset{--panel-tab-foreground: honeydew;--panel-tab-background: #C6CDF7;}</style>
+&lt;img src="images/WP_Breakdown.png" height="380px"/&gt;
+
+]
+
+.panel[.panel-name[WBS]
+
+&lt;img src="images/WP_Breakdown.png" height="400px"/&gt;
+
+]
+
+.panel[.panel-name[Gantt Chart]
+
+&lt;img src="images/WP_Breakdown.png" height="400px"/&gt;
+
+]
+
+
+]
+
 
 
 
@@ -181,7 +198,7 @@ Medium-Term Regional Medium-Term Plan (RPJMD) for 2007-2012, Jakarta (1) Spatial
 .panelset[
 .panel[.panel-name[Data Value]
 
-<style>.panelset{--panel-tab-foreground: honeydew;--panel-tab-background: seagreen;}</style>
+<style>.panelset{--panel-tab-foreground: honeydew;--panel-tab-background: #C6CDF7;}</style>
 
 
 .pull-left[
@@ -225,7 +242,53 @@ Medium-Term Regional Medium-Term Plan (RPJMD) for 2007-2012, Jakarta (1) Spatial
 
 # Project Timeline
 
+---
 
+## SWOT Analysis
+
+### Strengths:
+Strengths:
+1. Innovative Use of Technology: Advanced remote sensing provides a meticulous approach for identifying optimal locations for rooftop farming, offering a scalable solution for urban agriculture.
+2. Environmental Benefits: The initiative significantly mitigates the urban heat island effect, fosters air quality improvement, and promotes biodiversity, aligning with environmental conservation efforts.
+3. Socio-economic Impact: Encourages community participation in urban agriculture, addressing food insecurity, stimulating local economies, and creating employment in green sectors.
+4. Sustainability and Resilience: Enhances Jakarta's ecological resilience, advocating sustainable development and local food systems that are robust against climate change.
+
+### Weaknesses:
+1. Technical Challenges: Demands substantial expertise and investment for the deployment and maintenance of remote sensing technology, which may limit initial progress.
+2. Operational Maintenance: The ongoing upkeep of agricultural installations and technical apparatus necessitates a comprehensive logistical framework.
+3. Stakeholder Engagement: Success is contingent on active collaboration with property owners and local authorities, whose support is crucial for implementation.
+4. Data Management: Managing and securing the sensitive data collected through remote sensing is imperative to maintain privacy and adhere to regulations.
+
+### Opportunities:
+Opportunities:
+1. Collaborative Support: Prospects for alliances with government bodies and NGOs could provide financial aid and policy backing, propelling project momentum.
+2. Scalable Model: The project blueprint offers a replicable model for urban centers, with potential international applicability, enhancing global urban sustainability.
+3. Research and Development: Opens avenues for innovation in precision agriculture, driving technological advancements and academic inquiry.
+4. Educational Impact: Elevates community consciousness regarding ecological practices, reinforcing the significance of urban agriculture and local food sovereignty.
+
+### Threats:
+1. Regulatory Complexities: Urban agriculture intersects with complex legal frameworks, requiring adept navigation of regulations and building codes.
+2. Climate Vulnerability: The project is susceptible to the erratic nature of climate change, which could affect the longevity and productivity of rooftop gardens.
+3. Technological Advancements: The pace of technological change necessitates continuous investment to keep the remote sensing apparatus current and effective.
+4. Economic Sensitivity: Financial volatility can influence the availability of resources for project scaling and operation, making economic strategy a pivotal concern.
+---
+
+## Feasibility Analysis
+
+## Technical Feasibility:
+The project utilizes high-resolution remote sensing technologies capable of identifying suitable rooftops for urban farming in Jakarta. These technologies enable the precise analysis of structural integrity, sunlight exposure, and potential water runoff, ensuring that only rooftops that meet specific agricultural criteria are selected.
+
+## Economic Feasibility:
+The project's initial phase requires a prudent investment in remote sensing technologies and infrastructure enhancements to facilitate rooftop agriculture. This forward-looking investment is anticipated to be offset by the sustainable revenue streams from the urban farming operations, augmented property values, and environmental benefits that align with the city's ecological objectives. The fiscal strategy is constructed to capitalize on these multiple avenues of potential economic return while contributing positively to the urban ecosystem.
+
+## Legal and Regulatory Feasibility:
+The initiative adheres to the existing urban agricultural policies in Jakarta and will operate within the framework of local zoning laws. Efforts will be made to expedite the permit process and ensure that all farming activities conform to the stipulated urban planning guidelines.
+
+## Operational Feasibility:
+Operationally, the project will establish a streamlined system for the maintenance and management of rooftop farms. This includes setting up a dedicated team for the cultivation and distribution of produce, ensuring that the daily functioning of the farms is both efficient and sustainable.
+
+## Schedule Feasibility:
+The implementation timeline is structured in phases, beginning with a pilot program to test the feasibility and impact of rooftop farming. Following the pilot's success, the project will expand, with full-scale operations expected to commence within two years, factoring in all necessary preparatory and regulatory procedures.
 ---
 
 # Limitation
@@ -472,21 +535,12 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)
 ```
 
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-67fc9ab7e9916251077e" style="width:100%;height:432px;"></div>
-<script type="application/json" data-for="htmlwidget-67fc9ab7e9916251077e">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-feb4cdfa8ff1bb67635d" style="width:100%;height:432px;"></div>
+<script type="application/json" data-for="htmlwidget-feb4cdfa8ff1bb67635d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
-
-```r
-DT::datatable(
-  head(iris, 10),
-  fillContainer = FALSE, options = list(pageLength = 8)
-)
-```
-
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a81bcfc787bf29e1ed02" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-a81bcfc787bf29e1ed02">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Sepal.Length","targets":1},{"name":"Sepal.Width","targets":2},{"name":"Petal.Length","targets":3},{"name":"Petal.Width","targets":4},{"name":"Species","targets":5}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+# 
 
 ---
 
