@@ -156,7 +156,7 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "#C6CDF
 
 .panel[.panel-name[WBS]
 
-<img src="images/WP_Breakdown.png" height="400px"/>
+<img src="images/WBS.png" height="400px"/>
 
 ]
 
