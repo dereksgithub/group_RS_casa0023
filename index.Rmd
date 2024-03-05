@@ -18,7 +18,8 @@ output:
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_mono_accent(
-  base_color = "#1c2653",
+  # #1c2653
+  base_color = "#527060",
   header_font_google = google_font("Josefin Sans"),
   text_font_google   = google_font("Montserrat", "300", "300i"),
   code_font_google   = google_font("Fira Mono")
@@ -32,6 +33,9 @@ class: cover
 
 # Jakarta Rooftop Farming/Gardening Analysis
 
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+</div>
 
 
 ```{r setup, include=FALSE}
@@ -94,6 +98,9 @@ class: center, bottom, inverse
 # You only live once!
 
 ---
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+</div>
 
 # Group Assessment Remote Sensing
 
@@ -102,8 +109,12 @@ class: center, bottom, inverse
 
 
 ---
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+</div>
 
 # Remote Sensing for Rooftop Farming
+
 
 ## City:
 Jakarta, Indonesia 
@@ -137,6 +148,9 @@ Medium-Term Regional Medium-Term Plan (RPJMD) for 2007-2012, Jakarta (1) Spatial
 
 
 ---
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+</div>
 
 # Project Planning
 
@@ -148,7 +162,8 @@ Medium-Term Regional Medium-Term Plan (RPJMD) for 2007-2012, Jakarta (1) Spatial
 .panel[.panel-name[Workpack]
 
 ```{r echo=FALSE}
-xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "#C6CDF7")
+xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagreen")
+# #C6CDF7
 ```
 <img src="images/WP_Breakdown.png" height="380px"/>
 
@@ -175,6 +190,9 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "#C6CDF
 
 
 ---
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+</div>
 
 # Project Data Overview
 ```{r xaringan-panelset, echo=FALSE}
@@ -185,7 +203,7 @@ xaringanExtra::use_panelset()
 .panel[.panel-name[Data Value]
 
 ```{r echo=FALSE}
-xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "#C6CDF7")
+xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagreen")
 ```
 
 
@@ -218,10 +236,16 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "#C6CDF
 
 
 ---
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+</div>
 
 # Project Timeline
 
 ---
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+</div>
 
 ## SWOT Analysis
 
@@ -251,7 +275,9 @@ Opportunities:
 3. Technological Advancements: The pace of technological change necessitates continuous investment to keep the remote sensing apparatus current and effective.
 4. Economic Sensitivity: Financial volatility can influence the availability of resources for project scaling and operation, making economic strategy a pivotal concern.
 ---
-
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+</div>
 ## Feasibility Analysis
 
 ## Technical Feasibility:
@@ -269,7 +295,9 @@ Operationally, the project will establish a streamlined system for the maintenan
 ## Schedule Feasibility:
 The implementation timeline is structured in phases, beginning with a pilot program to test the feasibility and impact of rooftop farming. Following the pilot's success, the project will expand, with full-scale operations expected to commence within two years, factoring in all necessary preparatory and regulatory procedures.
 ---
-
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+</div>
 # Limitation
 
 1. Push test
