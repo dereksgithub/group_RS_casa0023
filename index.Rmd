@@ -211,25 +211,11 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagre
 
 
 
-.panel[.panel-name[Data flow]
+.panel[.panel-name[Data Flow]
 
-.pull-left[
-
-
-- Data flow of our proposes work
-- point 2
-- point 3
+<img src="images/dataflow.png" height="380px" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ]
-
-.pull-right[
-
-
-  <img src="images/dataflow.png" height="250px"/>
- 
-  
-]]
-
 ]
 ]
 
