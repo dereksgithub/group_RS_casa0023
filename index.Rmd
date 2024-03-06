@@ -1,6 +1,6 @@
 ---
-title: "Rooftop Farming and Remote Sensing"
-subtitle: "Rooftop Farming Potential Identification for Jakarta, Indonesia"
+title: "Remote Sensing for Identifying Rooftop Farming and Gardening Potentials in Jakarta, Indonesia"
+subtitle: ""
 author: "Sheng Hu, Zhaowei Cui, Lunan Wei, Mengyu Ding"
 institute: "CASA, UCL"
 date: "2024/02/04 (updated: `r Sys.Date()`)"
@@ -18,21 +18,89 @@ output:
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_mono_accent(
-  # #1c2653
-  base_color = "#527060",
+  # #1c2653 #527060
+  base_color = "#2A4D3A",
   header_font_google = google_font("Josefin Sans"),
   text_font_google   = google_font("Montserrat", "300", "300i"),
   code_font_google   = google_font("Fira Mono")
 )
 ```
 
+```{r xaringan-all, echo=FALSE}
+#xaringanExtra::use_scribble() #scribble drawing function, but too lag
+xaringanExtra::use_search(show_icon = TRUE, auto_search	=FALSE) #search function
+```
+
 ```{css, echo=FALSE}
-.title-slide {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Jakarta_vue_par_satellite_en_2022.jpg/640px-Jakarta_vue_par_satellite_en_2022.jpg);
-  background-position: 50% 50%;
-  background-size: 40%;
+/* Changing the font size of title slide */
+.title-slide, .title-slide h1, .title-slide h2 {
+  color: #2A4D3A; 
+}
+
+.title-slide h3 {
+  color: #527060;
+}
+
+.title-slide h1 {
+  font-size: 52px; 
+}
+
+.title-slide h2 {
+  font-size: 36px; 
+}
+
+.title-slide h3 {
+  font-size: 24px; 
 }
 ```
+
+```{css, echo=FALSE}
+/* Using selected background image*/
+.title-slide {
+  background-image: url(images/Jakarta_satellite.PNG);
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+/* Adding an white zone for decoration */
+.title-slide::before {
+  content: "";
+  position: absolute;
+  top: 10%; 
+  left: 0%;
+  width: 100%;
+  height: 80%; 
+  background-color: rgba(255, 255, 255, 0.7); 
+  z-index: 1; /* Under the text */
+}
+
+/* Adding the decorative icon background */
+.title-slide::after {
+  content: "";
+  position: absolute;
+  top: 10%; 
+  left: 0;
+  width: 100%; 
+  height: 80%; 
+  background-image: url(images/casalogobw.png); 
+  background-size: 135%; 
+  background-position: center; 
+  z-index: 0; /* Under the text and white zone */
+  opacity: 0.3; /* transparent */
+}
+
+/* let text is above all */
+.title-slide > * {
+  position: relative;
+  z-index: 2;
+}
+```
+
+
+
+
+
+
 
 
 

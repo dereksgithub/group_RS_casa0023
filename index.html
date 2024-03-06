@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Rooftop Farming and Remote Sensing</title>
+    <title>Remote Sensing for Identifying Rooftop Farming and Gardening Potentials in Jakarta, Indonesia</title>
     <meta charset="utf-8" />
     <meta name="author" content="Sheng Hu, Zhaowei Cui, Lunan Wei, Mengyu Ding" />
     <script src="libs/header-attrs/header-attrs.js"></script>
+    <script src="libs/mark.js/mark.min.js"></script>
+    <link href="libs/xaringanExtra-search/search.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-search/search.js"></script>
+    <script>window.addEventListener('load', function() { window.xeSearch = new RemarkSearch({"position":"bottom-left","caseSensitive":false,"showIcon":true,"autoSearch":false}) })</script>
     <link href="libs/panelset/panelset.css" rel="stylesheet" />
     <script src="libs/panelset/panelset.js"></script>
     <script src="libs/htmlwidgets/htmlwidgets.js"></script>
@@ -23,10 +27,7 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# Rooftop Farming and Remote Sensing
-]
-.subtitle[
-## Rooftop Farming Potential Identification for Jakarta, Indonesia
+# Remote Sensing for Identifying Rooftop Farming and Gardening Potentials in Jakarta, Indonesia
 ]
 .author[
 ### Sheng Hu, Zhaowei Cui, Lunan Wei, Mengyu Ding
@@ -35,7 +36,7 @@ class: center, middle, inverse, title-slide
 ### CASA, UCL
 ]
 .date[
-### 2024/02/04 (updated: 2024-03-05)
+### 2024/02/04 (updated: 2024-03-06)
 ]
 
 ---
@@ -44,13 +45,78 @@ class: center, middle, inverse, title-slide
 
 
 
+
+
 &lt;style type="text/css"&gt;
-.title-slide {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Jakarta_vue_par_satellite_en_2022.jpg/640px-Jakarta_vue_par_satellite_en_2022.jpg);
-  background-position: 50% 50%;
-  background-size: 40%;
+/* Changing the font size of title slide */
+.title-slide, .title-slide h1, .title-slide h2 {
+  color: #2A4D3A; 
+}
+
+.title-slide h3 {
+  color: #527060;
+}
+
+.title-slide h1 {
+  font-size: 52px; 
+}
+
+.title-slide h2 {
+  font-size: 36px; 
+}
+
+.title-slide h3 {
+  font-size: 24px; 
 }
 &lt;/style&gt;
+
+&lt;style type="text/css"&gt;
+/* Using selected background image*/
+.title-slide {
+  background-image: url(images/Jakarta_satellite.PNG);
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+/* Adding an white zone for decoration */
+.title-slide::before {
+  content: "";
+  position: absolute;
+  top: 10%; 
+  left: 0%;
+  width: 100%;
+  height: 80%; 
+  background-color: rgba(255, 255, 255, 0.7); 
+  z-index: 1; /* Under the text */
+}
+
+/* Adding the decorative icon background */
+.title-slide::after {
+  content: "";
+  position: absolute;
+  top: 10%; 
+  left: 0;
+  width: 100%; 
+  height: 80%; 
+  background-image: url(images/casalogobw.png); 
+  background-size: 135%; 
+  background-position: center; 
+  z-index: 0; /* Under the text and white zone */
+  opacity: 0.3; /* transparent */
+}
+
+/* let text is above all */
+.title-slide &gt; * {
+  position: relative;
+  z-index: 2;
+}
+&lt;/style&gt;
+
+
+
+
+
+
 
 
 
@@ -543,8 +609,8 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)
 ```
 
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a3795a199741f2931446" style="width:100%;height:432px;"></div>
-<script type="application/json" data-for="htmlwidget-a3795a199741f2931446">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-7a0eee56697efcd592ab" style="width:100%;height:432px;"></div>
+<script type="application/json" data-for="htmlwidget-7a0eee56697efcd592ab">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[42.0285,-93.65000000000001],17,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
