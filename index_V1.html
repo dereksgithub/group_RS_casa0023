@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Remote Sensing for Identifying Rooftop Farming and Gardening Potentials in Jakarta, Indonesia</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Sheng Hu, Zhaowei Cui, Lunan Wei, Mengyu Ding" />
+    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
+    <script src="libs/mark.js-8.11.1/mark.min.js"></script>
+    <link href="libs/xaringanExtra-search-0.0.1/search.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-search-0.0.1/search.js"></script>
+    <script>window.addEventListener('load', function() { window.xeSearch = new RemarkSearch({"position":"bottom-left","caseSensitive":false,"showIcon":true,"autoSearch":false}) })</script>
+    <link href="libs/panelset-0.2.6/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset-0.2.6/panelset.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Remote Sensing for Identifying Rooftop Farming and Gardening Potentials in Jakarta, Indonesia
+]
+.author[
+### Sheng Hu, Zhaowei Cui, Lunan Wei, Mengyu Ding
+]
+.institute[
+### CASA, UCL
+]
+.date[
+### 2024/02/04 (updated: 2024-03-13)
+]
+
+---
+
+
+
+
+
+&lt;style type="text/css"&gt;
+/* Changing the font size of each slide */
+
+/* the title font size for each slide */
+.remark-slide-content h1 {
+  font-size: 42px; 
+}
+
+.remark-slide-content h2 {
+  font-size: 36px; 
+}
+
+/*
+.remark-slide-content h3 {
+  font-size: 24px; */
+}
+&lt;/style&gt;
+
+
+
+&lt;style type="text/css"&gt;
+/* Changing the font size of title slide */
+.title-slide, .title-slide h1, .title-slide h2 {
+  color: #2A4D3A; 
+}
+
+.title-slide h3 {
+  color: #527060;
+}
+
+.title-slide h1 {
+  font-size: 52px; 
+}
+
+.title-slide h2 {
+  font-size: 36px; 
+}
+
+.title-slide h3 {
+  font-size: 24px; 
+}
+&lt;/style&gt;
+
+&lt;style type="text/css"&gt;
+/* Using selected background image*/
+.title-slide {
+  background-image: url(images/Jakarta_satellite.PNG);
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+/* Adding an white zone for decoration */
+.title-slide::before {
+  content: "";
+  position: absolute;
+  top: 10%; 
+  left: 0%;
+  width: 100%;
+  height: 80%; 
+  background-color: rgba(255, 255, 255, 0.7); 
+  z-index: 1; /* Under the text */
+}
+
+/* Adding the decorative icon background */
+.title-slide::after {
+  content: "";
+  position: absolute;
+  top: 10%; 
+  left: 0;
+  width: 100%; 
+  height: 80%; 
+  background-image: url(images/casalogobw.png); 
+  background-size: 135%; 
+  background-position: center; 
+  z-index: 0; /* Under the text and white zone */
+  opacity: 0.3; /* transparent */
+}
+
+/* let text is above all */
+.title-slide &gt; * {
+  position: relative;
+  z-index: 2;
+}
+&lt;/style&gt;
+
+
+# Jakarta – potential overview
+
+&lt;div style="position: absolute; top: 20px; right: 40px;"&gt;
+  &lt;img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;"&gt;
+&lt;/div&gt;
+
+
+---
+&lt;div style="position: absolute; top: 20px; right: 40px;"&gt;
+  &lt;img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;"&gt;
+&lt;/div&gt;
+
+# Case Study/Motivation
+
+
+
+<style>.panelset{--panel-tab-foreground: honeydew;--panel-tab-background: seagreen;}</style>
+
+
+.panelset[
+.panel[.panel-name[Commercial]
+
+.pull-left[
+  &lt;img src="images/Case study_Motivation/casestudy1.jpeg"
+  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/&gt;
+  
+  &lt;div style="font-size: 14px;"&gt; &lt;!-- The image source font size --&gt;
+  blablabla blablabla description blablabla Source: &lt;a
+  href="http://sigitkusumawijaya.com/?portfolios=green-boarding-house"
+  style="color: #7910FF;"&gt;Originally from blabla, picture name&lt;/a&gt; &lt;!-- Hyper color --&gt;
+  &lt;!-- 额外图源记得写一下描述 --&gt;
+  &lt;/div&gt;
+]
+
+.pull-right[
+  * ...A recentpopular development is turning rooftops...
+  
+  
+  * Urban farming has long become common practice on idle plots of land in cities, but today...
+  
+  * Sigit, who runs his own company named sigit.kusumawijaya, ...
+  
+  * By function, he says, rooftop gardens brimming with decorative plants...
+
+]
+
+]
+
+
+.panel[.panel-name[Education]
+
+.pull-left[
+  &lt;img src="images/Case study_Motivation/casestudy2.webp"
+  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/&gt;
+  
+  &lt;div style="font-size: 14px;"&gt; &lt;!-- The image source font size --&gt;
+  blablabla blablabla description blablabla Source: &lt;a
+  href="https://en.antaranews.com/news/256325/jakarta-distributes-hydroponic-racks-to-aid-urban-farming-in-pe
+  santren"
+  style="color: #7910FF;"&gt;Originally from blabla, picture name&lt;/a&gt; &lt;!-- Hyper color --&gt;
+  &lt;!-- 额外图源记得写一下描述 --&gt;
+  &lt;/div&gt;
+]
+
+.pull-right[
+  * Jakarta (ANTARA) - The Jakarta Food Security, Marine, and Agriculture (KPKP)...
+  
+  &lt;br&gt; &lt;!-- 空行做排版，可自行删除 --&gt;
+  &lt;br&gt;
+  
+  
+  * "Santri (Islamic boarding school students) can also learn urban farming methods...
+
+]
+
+]
+
+
+.panel[.panel-name[Community]
+
+.pull-left[
+  &lt;img src="images/Case study_Motivation/casestudy3.jpeg"
+  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/&gt;
+  
+  &lt;div style="font-size: 14px;"&gt; &lt;!-- The image source font size --&gt;
+  blablabla blablabla description blablabla Source: &lt;a
+  href="https://www.superindo.co.id/korporasi-keberlanjutan/superindoberkebun/gardening_info_detail/soft_openi
+  ng_super_indo_berkebun_rooftop_pondok_kelapa_jakarta"
+  style="color: #7910FF;"&gt;Originally from blabla, picture name&lt;/a&gt; &lt;!-- Hyper color --&gt;
+  &lt;!-- 额外图源记得写一下描述 --&gt;
+  &lt;/div&gt;
+]
+
+.pull-right[
+  Komitmen Super Indo dalam membawa lingkungan dan komunitas yang lebih baik, kini telah berhasil membuka kebun ke-5 nya dengan konsep paling kekinian. Konsep berkebun di rooftop menjadi salah satu metode berkebun Urban Farming bagi sebagian masyarakat Jakarta yang memiliki lahan sempit dan terbatas. Cara ini tentunya membantu masyarakat dalam berbudidaya tanaman di perkotaan dengan memanfaatkan lahan semaksimal mungkin.
+
+]
+
+]
+
+
+]
+
+
+---
+&lt;div style="position: absolute; top: 20px; right: 40px;"&gt;
+  &lt;img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;"&gt;
+&lt;/div&gt;
+
+# Remote Sensing for Rooftop Farming
+
+## City:
+Jakarta, Indonesia
+
+## Problem Definition:
+`symbiotic coexistence of built environment and nature` &lt;!-- 这里得想一个具体的prob defn --&gt;
+&lt;!-- `...` 这个``是强调符号，可以不用，也可以用其他的方式 --&gt;
+
+&lt;span style="color: red; font-weight: bold;"&gt;
+  symbiotic coexistence of built environment and nature
+&lt;/span&gt; &lt;!-- 比如这种红色加粗 --&gt;
+
+Food Insecurity: Despite being a bustling metropolis, Jakarta still faces issues of food insecurity, particularly among low-income communities. Limited access to nutritious food, high food prices, and inadequate distribution systems contribute to this problem.  The city experiences a reduction in agricultural land converted into settlements and industrial land, as well as soil deterioration.
+
+Heat Island:...
+
+Air Pollution:...
+
+
+---
+&lt;div style="position: absolute; top: 20px; right: 40px;"&gt;
+  &lt;img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;"&gt;
+&lt;/div&gt;
+
+# Current Policy
+
+* In 2017, the city of Jakarta initiated a peri-urban farming program under its Urban Agriculture Program that aimed to achieve sustainable agricultural production, rural economic sustainability and long-term environmental sustainability.
+
+* Gubernatorial Regulation number 14/2018 on Implementation of Urban Farming and Great Design of Urban Farming 2018-2030. (6)
+
+* President Regulation No. 60 2020 on urban farming can also preserve around 30% of open spaces, both for public use (20%) and for private use (10%). (8)
+
+* Medium-Term Regional Medium-Term Plan (RPJMD) for 2007-2012, Jakarta (1) Spatial Planning Jakarta 2030. (1)
+
+
+---
+&lt;div style="position: absolute; top: 20px; right: 40px;"&gt;
+  &lt;img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;"&gt;
+&lt;/div&gt;
+
+# SDG alignment
+
+&lt;!-- write a three columns style --&gt;
+&lt;style&gt;
+  .three-cols {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  
+  .three-cols &gt; div {
+    flex-basis: 30%; /* Adjust this value based on your content and spacing needs */
+    margin: 0 1%; /* Adds a little space between columns */
+  }
+&lt;/style&gt;
+
+&lt;div class="three-cols"&gt;
+  &lt;div&gt;
+    &lt;!-- Left SDG 2 --&gt;
+    &lt;img src="images/SDG_image/SDGimage2.jpeg" alt="Image description" style="max-width: 100%; height: auto;"&gt;
+    &lt;p&gt;Text description for image 1.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;!-- Middle SDG 13 --&gt;
+    &lt;img src="images/SDG_image/SDGimage13.jpeg" alt="Image description" style="max-width: 100%; height: auto;"&gt;
+    &lt;p&gt;Text description for image 2.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;!-- Right SDG 15 --&gt;
+    &lt;img src="images/SDG_image/SDGimage15.jpeg" alt="Image description" style="max-width: 100%; height: auto;"&gt;
+    &lt;p&gt;Text description for image 3.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div style="font-size: 14px;"&gt; &lt;!-- The image source font size --&gt;
+  blablabla blablabla description blablabla Source: &lt;a href="https://www.globalgoals.org/goals/"
+  style="color: #7910FF;"&gt;Originally from blabla, picture name&lt;/a&gt; &lt;!-- Hyper color --&gt;
+  &lt;!-- 额外图源记得写一下描述 --&gt;
+&lt;/div&gt;
+
+
+---
+&lt;div style="position: absolute; top: 20px; right: 40px;"&gt;
+  &lt;img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;"&gt;
+&lt;/div&gt;
+
+# Project Data Source
+
+
+
+
+
+
+---
+&lt;div style="position: absolute; top: 20px; right: 40px;"&gt;
+  &lt;img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;"&gt;
+&lt;/div&gt;
+
+# Project Data Overview
+
+.panelset[
+.panel[.panel-name[Data Value]
+
+
+&lt;img src="images/data_value_chain.png" height="350px" style="display: block; margin-left: auto; margin-right: auto;"/&gt;
+
+
+
+.panel[.panel-name[Data Flow]
+
+&lt;img src="images/dataflow.png" height="380px" style="display: block; margin-left: auto; margin-right: auto;"/&gt;
+
+]
+]
+]
+
+
+---
+&lt;div style="position: absolute; top: 20px; right: 40px;"&gt;
+  &lt;img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;"&gt;
+&lt;/div&gt;
+
+# Methodology
+
+
+
+
+
+
+
+---
+&lt;div style="position: absolute; top: 20px; right: 40px;"&gt;
+  &lt;img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;"&gt;
+&lt;/div&gt;
+
+# Existing Landuse | Demo Video
+
+.pull-left[
+  &lt;img src="images/existing_landuse.jpeg"
+  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/&gt;
+  
+  &lt;div style="font-size: 14px;"&gt; &lt;!-- The image source font size --&gt;
+  blablabla blablabla description blablabla Source: &lt;a
+  href="https://tataruang.jakarta.go.id"
+  style="color: #7910FF;"&gt;Originally from blabla, picture name&lt;/a&gt; &lt;!-- Hyper color --&gt;
+  &lt;!-- 额外图源记得写一下描述 --&gt;
+  &lt;/div&gt;
+]
+
+.pull-right[
+Possible Land Use:
+
+Government
+
+Cultural
+
+Education
+
+]
+
+
+
+
+---
+&lt;div style="position: absolute; top: 20px; right: 40px;"&gt;
+  &lt;img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;"&gt;
+&lt;/div&gt;
+
+# Project Planning
+
+
+.panelset[
+.panel[.panel-name[Workpack]
+
+&lt;img src="images/WP_Breakdown.png" height="380px"/&gt;
+
+]
+
+.panel[.panel-name[WBS]
+
+&lt;img src="images/WBS.png" height="400px" style="display: block; margin-left: auto; margin-right: auto;"/&gt;
+
+]
+
+.panel[.panel-name[Gantt Chart]
+
+&lt;img src="images/gantt.png" height="350px"/&gt;
+
+]
+
+
+]
+
+
+
+---
+&lt;div style="position: absolute; top: 20px; right: 40px;"&gt;
+  &lt;img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;"&gt;
+&lt;/div&gt;
+
+# Project Analysis
+
+.panelset[
+.panel[.panel-name[SWOT]
+
+### Strengths
+### Weakness
+### Opportunities
+### Threat
+
+]
+
+.panel[.panel-name[Feasibility]
+
+### Technical - T
+### Economic - E
+### Legal - L
+### Operational - O
+### Scheduling - S
+
+]
+
+
+]
+
+
+---
+&lt;div style="position: absolute; top: 20px; right: 40px;"&gt;
+  &lt;img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;"&gt;
+&lt;/div&gt;
+
+# Budget Breakdown
+
+
+
+---
+&lt;div style="position: absolute; top: 20px; right: 40px;"&gt;
+  &lt;img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;"&gt;
+&lt;/div&gt;
+
+# Limitation
+
+.panelset[
+.panel[.panel-name[Data Source]
+### Issue
+Visual signal might not contribute to understanding of the physical structure.
+(Data of some variables such as structural load capacity is difficult to obtain.）
+
+### Mitigation proposal
+* Consulting with experts in civil and structural engineering.
+* Conducting a Field investigation.
+
+]
+
+
+.panel[.panel-name[Model]
+### Issue
+* Various factors may occasionally hinder the performance of the model.
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+### Mitigation proposal
+* Remote Assistant (reset model, etc)
+* On-site
+
+]
+
+
+.panel[.panel-name[Regulation]
+### Issue
+* Governance: Local policies (bylaws) could potentially lead to some areas being inaccessible for results.
+* Privacy: The outcomes may encroach upon private spaces, leading to reluctance.
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+### Mitigation proposal
+* Engaging with stakeholders early.
+* Public consultation.
+
+]
+
+
+.panel[.panel-name[Uncontrollable Factors]
+### Issue
+* Sudden staff turnover.
+* Equipment failures.
+* Workload fluctuations.
+
+
+### Mitigation proposal
+* Alternative Personnel Reserve list, Cross-trained.
+* Regular maintenance.
+* Buffer time, Additional plan.
+
+]
+
+
+]
+
+
+---
+&lt;div style="position: absolute; top: 20px; right: 40px;"&gt;
+  &lt;img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;"&gt;
+&lt;/div&gt;
+
+# Contributions and Outlook
+
+1. Push test
+
+
+---
+&lt;div style="position: absolute; top: 20px; right: 40px;"&gt;
+  &lt;img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;"&gt;
+&lt;/div&gt;
+
+# Reference
+
+1. Push test
+
+
+---
+
+class: inverse, center, middle
+
+# Thanks!
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
