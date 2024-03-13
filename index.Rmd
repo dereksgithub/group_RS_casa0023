@@ -309,50 +309,64 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagre
 ## SWOT Analysis
 
 ### Strengths:
-Strengths:
-1. Innovative Use of Technology: Advanced remote sensing provides a meticulous approach for identifying optimal locations for rooftop farming, offering a scalable solution for urban agriculture.
-2. Environmental Benefits: The initiative significantly mitigates the urban heat island effect, fosters air quality improvement, and promotes biodiversity, aligning with environmental conservation efforts.
-3. Socio-economic Impact: Encourages community participation in urban agriculture, addressing food insecurity, stimulating local economies, and creating employment in green sectors.
-4. Sustainability and Resilience: Enhances Jakarta's ecological resilience, advocating sustainable development and local food systems that are robust against climate change.
+1.Tech Innovation: Advanced remote sensing for optimal Rooftop Farming & Gardening placement.
+
+2.Environmental Enhancement: Increases urban greenery, mitigating heat islands and purifying air, while promoting biodiversity.
+
+3.Economic Benefits: Supporting the local economy, and enhancing food self-sufficiency.
+
+4.Social Impact: Supports food security and community well-being by providing fresh produce to vulnerable groups.
 
 ### Weaknesses:
-1. Technical Challenges: Demands substantial expertise and investment for the deployment and maintenance of remote sensing technology, which may limit initial progress.
-2. Operational Maintenance: The ongoing upkeep of agricultural installations and technical apparatus necessitates a comprehensive logistical framework.
-3. Stakeholder Engagement: Success is contingent on active collaboration with property owners and local authorities, whose support is crucial for implementation.
-4. Data Management: Managing and securing the sensitive data collected through remote sensing is imperative to maintain privacy and adhere to regulations.
+1.Data Management: Privacy and large dataset challenges.
+
+2.Costs: Requires significant initial investment in infrastructures, and maintenance demands continuous investment to enhance the real-time update frequency and accuracy of the data.
+
+3.Stakeholder Support: Essential to address scepticism and gain consistent support.
 
 ### Opportunities:
-Opportunities:
-1. Collaborative Support: Prospects for alliances with government bodies and NGOs could provide financial aid and policy backing, propelling project momentum.
-2. Scalable Model: The project blueprint offers a replicable model for urban centers, with potential international applicability, enhancing global urban sustainability.
-3. Research and Development: Opens avenues for innovation in precision agriculture, driving technological advancements and academic inquiry.
-4. Educational Impact: Elevates community consciousness regarding ecological practices, reinforcing the significance of urban agriculture and local food sovereignty.
+1.Collaborative Partnerships: Exploits synergies with public, private, and academic sectors.
+
+2.Scalability: Offers potential for replication in other urban environments.
+
+3.Educational opportunities: Serves as a platform that fosters alignment with scholarly work and innovative practices, while also acting as a practical foundation for educational initiatives.
 
 ### Threats:
-1. Regulatory Complexities: Urban agriculture intersects with complex legal frameworks, requiring adept navigation of regulations and building codes.
-2. Climate Vulnerability: The project is susceptible to the erratic nature of climate change, which could affect the longevity and productivity of rooftop gardens.
-3. Technological Advancements: The pace of technological change necessitates continuous investment to keep the remote sensing apparatus current and effective.
-4. Economic Sensitivity: Financial volatility can influence the availability of resources for project scaling and operation, making economic strategy a pivotal concern.
+1.Climate Variations: Vulnerability to extreme weather.
+
+2.Funding: Relies on limited funding sources, with financial constraints posing risks to project continuity and expansion.
+
+3.Safety and Legal Issues: Must address safety risks and navigate legal complexities related to rooftop access.
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
   <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
 </div>
 ## Feasibility Analysis
 
-## Technical Feasibility:
-The project utilizes high-resolution remote sensing technologies capable of identifying suitable rooftops for urban farming in Jakarta. These technologies enable the precise analysis of structural integrity, sunlight exposure, and potential water runoff, ensuring that only rooftops that meet specific agricultural criteria are selected.
+## Technical - T
 
-## Economic Feasibility:
-The project's initial phase requires a prudent investment in remote sensing technologies and infrastructure enhancements to facilitate rooftop agriculture. This forward-looking investment is anticipated to be offset by the sustainable revenue streams from the urban farming operations, augmented property values, and environmental benefits that align with the city's ecological objectives. The fiscal strategy is constructed to capitalize on these multiple avenues of potential economic return while contributing positively to the urban ecosystem.
+Feasibility: High
+Detailed Explanation: The project employs advanced remote sensing technology and data analysis methods capable of accurately identifying areas suitable for rooftop agriculture, demonstrating the feasibility of technical implementation. However, successful implementation also requires seamless integration of these technologies with existing urban infrastructure, including building structural adaptability and resource allocation like water and electricity.
 
-## Legal and Regulatory Feasibility:
-The initiative adheres to the existing urban agricultural policies in Jakarta and will operate within the framework of local zoning laws. Efforts will be made to expedite the permit process and ensure that all farming activities conform to the stipulated urban planning guidelines.
+## Economic - E
 
-## Operational Feasibility:
-Operationally, the project will establish a streamlined system for the maintenance and management of rooftop farms. This includes setting up a dedicated team for the cultivation and distribution of produce, ensuring that the daily functioning of the farms is both efficient and sustainable.
+Feasibility: Moderate
+Detailed Explanation: Although the project requires significant initial investment for infrastructure modification and the application of remote sensing technology, it is expected to become economically self-sustaining in the long run. This is through the sale of produce from rooftop farms and potential environmental credit trading, bringing positive economic impacts to the local economy.
 
-## Schedule Feasibility:
-The implementation timeline is structured in phases, beginning with a pilot program to test the feasibility and impact of rooftop farming. Following the pilot's success, the project will expand, with full-scale operations expected to commence within two years, factoring in all necessary preparatory and regulatory procedures.
+## Legal - L
+
+Feasibility: Moderate to High
+Detailed Explanation: The project must comply with local zoning regulations, building codes, and urban planning policies. While this may present certain challenges, rational planning and proactive communication will help overcome these legal barriers, especially as sustainable development and urban agriculture gain increasing policy support.
+
+## Operational - O
+
+Feasibility: Moderate
+Detailed Explanation: The rooftop farming project introduces new requirements for the management and maintenance model of existing buildings. This not only requires technical and physical resources but also enhances stakeholder participation and support through education and training. Successful implementation also necessitates establishing an effective operation and maintenance system to ensure the continuity of agricultural activities.
+
+## Scheduling - S
+
+Feasibility: Moderate
+Detailed Explanation: Given the preparatory work, legal approval processes, and the implementation of technology and infrastructure required for the project, developing a realistic and flexible timetable is crucial. The project should set clear milestones and timelines to adjust plans timely and ensure the completion of each phase's objectives.
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
   <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
