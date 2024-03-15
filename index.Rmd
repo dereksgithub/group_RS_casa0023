@@ -26,6 +26,10 @@ style_mono_accent(
 )
 ```
 
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
 ```{css, echo=FALSE}
 /* Changing the font size of each slide */
 
