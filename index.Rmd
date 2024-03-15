@@ -118,8 +118,100 @@ xaringanExtra::use_search(show_icon = TRUE, auto_search	=FALSE) #search function
 # Jakarta – potential overview
 
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
+
+
+---
+
+# Case Study Global North
+
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
+
+.panelset[
+.panel[.panel-name[NYC]
+
+.pull-left[
+  <img src="images/Case study_Motivation/casestudy1.jpeg"
+  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/>
+  
+  <div style="font-size: 14px;"> <!-- The image source font size -->
+  blablabla blablabla description blablabla Source: <a
+  href="http://sigitkusumawijaya.com/?portfolios=green-boarding-house"
+  style="color: #7910FF;">Originally from blabla, picture name</a> <!-- Hyper color -->
+  <!-- 额外图源记得写一下描述 -->
+  </div>
+]
+
+.pull-right[
+  * NYC New Green Roof Law
+  
+  
+  * Urban farming has long become common practice on idle plots of land in cities, but today...
+  
+  * Sigit, who runs his own company named sigit.kusumawijaya, ...
+  
+  * By function, he says, rooftop gardens brimming with decorative plants...
+
+]
+
+]
+
+
+.panel[.panel-name[Copenhagen]
+
+.pull-left[
+  <img src="images/Case study_Motivation/casestudy2.webp"
+  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/>
+  
+  <div style="font-size: 14px;"> <!-- The image source font size -->
+  blablabla blablabla description blablabla Source: <a
+  href="https://en.antaranews.com/news/256325/jakarta-distributes-hydroponic-racks-to-aid-urban-farming-in-pe
+  santren"
+  style="color: #7910FF;">Originally from blabla, picture name</a> <!-- Hyper color -->
+  <!-- 额外图源记得写一下描述 -->
+  </div>
+]
+
+.pull-right[
+  * Jakarta (ANTARA) - The Jakarta Food Security, Marine, and Agriculture (KPKP)...
+  
+  <br> <!-- 空行做排版，可自行删除 -->
+  <br>
+  
+  
+  * "Santri (Islamic boarding school students) can also learn urban farming methods...
+
+]
+
+]
+
+
+.panel[.panel-name[Chicago]
+
+.pull-left[
+  <img src="images/Case study_Motivation/casestudy3.jpeg"
+  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/>
+  
+  <div style="font-size: 14px;"> <!-- The image source font size -->
+  blablabla blablabla description blablabla Source: <a
+  href="https://www.superindo.co.id/korporasi-keberlanjutan/superindoberkebun/gardening_info_detail/soft_openi
+  ng_super_indo_berkebun_rooftop_pondok_kelapa_jakarta"
+  style="color: #7910FF;">Originally from blabla, picture name</a> <!-- Hyper color -->
+  <!-- 额外图源记得写一下描述 -->
+  </div>
+]
+
+.pull-right[
+  Chicago Rooftop Gardening
+]
+
+]
+
+
+]
 
 
 ---
@@ -313,11 +405,11 @@ Air Pollution:...
 
 
 ---
+# Project Data Source
+
 <div style="position: absolute; top: 20px; right: 40px;">
   <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
 </div>
-
-# Project Data Source
 
 
 
@@ -329,7 +421,7 @@ Air Pollution:...
   <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
-# Project Data Overview
+# Value and Data Flow
 
 .panelset[
 .panel[.panel-name[Data Value]
@@ -353,7 +445,17 @@ Air Pollution:...
   <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
-# Methodology
+# Methodology Overview
+
+
+
+---
+
+# Data Architecture
+
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
 
 
 
@@ -392,40 +494,6 @@ Education
 ]
 
 
-
-
----
-<div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
-</div>
-
-# Project Planning
-
-
-.panelset[
-.panel[.panel-name[Workpack]
-
-<img src="images/WP_Breakdown.png" height="380px"/>
-
-]
-
-.panel[.panel-name[WBS]
-
-<img src="images/WBS.png" height="400px" style="display: block; margin-left: auto; margin-right: auto;"/>
-
-]
-
-.panel[.panel-name[Gantt Chart]
-
-<img src="images/gantt.png" height="350px"/>
-
-]
-
-
-]
-
-
-
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
   <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
@@ -462,6 +530,40 @@ Education
   <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
+# Project Planning
+
+
+.panelset[
+.panel[.panel-name[Workpack]
+
+<img src="images/WP_Breakdown.png" height="380px"/>
+
+]
+
+.panel[.panel-name[WBS]
+
+<img src="images/WBS.png" height="400px" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+]
+
+.panel[.panel-name[Gantt Chart]
+
+<img src="images/gantt.png" height="350px"/>
+
+]
+
+
+]
+
+
+
+
+
+---
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+</div>
+
 # Budget Breakdown
 
 
@@ -487,54 +589,55 @@ Part of the source data are published [here](https://ee-derekding727.projects.ea
 
 .panelset[
 .panel[.panel-name[Data Source]
-### Issue
-Visual signal might not contribute to understanding of the physical structure.
+### Potential Issues
+Visual signal might not contribute to the understanding of the physical structure.
 (Data of some variables such as structural load capacity is difficult to obtain.）
 
-### Mitigation proposal
-* Consulting with experts in civil and structural engineering.
-* Conducting a Field investigation.
+### Mitigation 
+* Consulting with civil and structural experts.
+* Conducting a field investigation.
 
 ]
 
 
 .panel[.panel-name[Model]
-### Issue
+### Potential Issues
 * Various factors may occasionally hinder the performance of the model.
 <br>
 <br>
 <br>
 
-### Mitigation proposal
-* Remote Assistant (reset model, etc)
+### Mitigation
+* Remote assistant (reset model, calibration, etc)
 * On-site
 
 ]
 
 
 .panel[.panel-name[Regulation]
-### Issue
+### Potential Issues
 * Governance: Local policies (bylaws) could potentially lead to some areas being inaccessible for results.
 * Privacy: The outcomes may encroach upon private spaces, leading to reluctance.
 <br>
 <br>
 <br>
 
-### Mitigation proposal
-* Engaging with stakeholders early.
-* Public consultation.
+### Mitigation 
+* Proactive and early stakeholder engagement
+* Actively engage public opinion through transparent channels
 
 ]
 
 
 .panel[.panel-name[Uncontrollable Factors]
-### Issue
-* Sudden staff turnover.
+
+### Potential Issue
+* Unforeseen staff turnover.
 * Equipment failures.
 * Workload fluctuations.
 
 
-### Mitigation proposal
+### Mitigation
 * Alternative Personnel Reserve list, Cross-trained.
 * Regular maintenance.
 * Buffer time, Additional plan.
