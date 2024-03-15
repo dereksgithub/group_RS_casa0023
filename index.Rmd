@@ -220,7 +220,7 @@ xaringanExtra::use_search(show_icon = TRUE, auto_search	=FALSE) #search function
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 # Case Study/Motivation
@@ -322,7 +322,7 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagre
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 # Remote Sensing for Rooftop Farming
@@ -347,7 +347,7 @@ Air Pollution:...
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 # Current Policy
@@ -363,7 +363,7 @@ Air Pollution:...
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 # SDG alignment
@@ -412,7 +412,7 @@ Air Pollution:...
 # Project Data Source
 
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 
@@ -422,7 +422,7 @@ Air Pollution:...
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 # Value and Data Flow
@@ -446,7 +446,7 @@ Air Pollution:...
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 # Methodology Overview
@@ -469,7 +469,7 @@ Air Pollution:...
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 # Existing Landuse | Demo Video
@@ -500,7 +500,7 @@ Education
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 # Project Analysis
@@ -531,7 +531,7 @@ Education
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 # Project Planning
@@ -565,7 +565,7 @@ Education
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 # Budget Breakdown
@@ -574,7 +574,7 @@ Education
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 # Prototype Preview
@@ -586,7 +586,7 @@ Part of the source data are published [here](https://ee-derekding727.projects.ea
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 # Limitations and Risks
@@ -635,7 +635,7 @@ Visual signal might not contribute to the understanding of the physical structur
 
 .panel[.panel-name[Uncontrollable Factors]
 
-### Potential Issue
+### Potential Issues
 * Unforeseen staff turnover.
 * Equipment failures.
 * Workload fluctuations.
@@ -654,7 +654,7 @@ Visual signal might not contribute to the understanding of the physical structur
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 # Contributions and Outlook
@@ -664,7 +664,7 @@ Visual signal might not contribute to the understanding of the physical structur
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 # Reference
