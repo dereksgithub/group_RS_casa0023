@@ -6,8 +6,8 @@ institute: "CASA, UCL"
 date: "2024/02/04 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
-    css: xaringan-themer.css
     lib_dir: libs
+    css: xaringan-themer.css
     nature:
       highlightStyle: github
       highlightLines: true
@@ -585,7 +585,7 @@ Part of the source data are published [here](https://ee-derekding727.projects.ea
   <img src="images/casa_logo.jpg" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
-# Limitation
+# Limitations and Risks
 
 .panelset[
 .panel[.panel-name[Data Source]
