@@ -16,7 +16,6 @@ output:
 
 ---
 
-
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_mono_accent(
@@ -122,26 +121,160 @@ xaringanExtra::use_search(show_icon = TRUE, auto_search	=FALSE) #search function
 
 
 
+---
 
 
-# Jakarta – potential overview
+
+background-image: url("images/cover.jpg")
+background-position: 50% 50%
+class: center, bottom, inverse
+
+
+---
+# Issue Identification
+
+
+## City: 
+Jakarta, Indonesia
+
+
+## Problem：
+
+.panelset[
+.panel[.panel-name[Food Insecurity]
+
+Official statistics indicate that 3.48 percent of Jakarta’s residents – over 312,180 people – fall below the poverty line. Despite being a bustling metropolis, Jakarta still faces issues of food insecurity, particularly among low-income communities. 
+
+Limited access to nutritious food, high food prices, and inadequate distribution systems contribute to this problem.  
+
+The city experiences a reduction in agricultural land converted into settlements and industrial land, as well as soil deterioration.​
+
+]
+
+.panel[.panel-name[Heat Island]
+
+
+
+]
+
+
+.panel[.panel-name[Air Pollution]
+
+The heavy traffic congestion in Jakarta contributes to poor air quality, with high levels of vehicle emissions and industrial pollutants. This pollution poses health risks to residents and has adverse effects on the environment.
+
+]
+
+]
+
+
+
 
 <div style="position: absolute; top: 20px; right: 40px;">
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
 
+---
+
+
+
+# SDG Alignment
 
 
 
 
+<!-- write a three columns style -->
+<style>
+  .three-cols {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  
+  .three-cols > div {
+    flex-basis: 30%; /* Adjust this value based on your content and spacing needs */
+    margin: 0 1%; /* Adds a little space between columns */
+  }
+</style>
 
+<div class="three-cols">
+  <div>
+    <!-- Left SDG 2 -->
+    <img src="images/SDG_image/SDGimage2.jpeg" alt="Image description" style="max-width: 100%; height: auto;">
+    <p>ZERO HUNGER (SDG 2)</p>
+    End hunger and ensure year-round access to safe, nutritious and sufficient food</p>
+  </div>
+  <div>
+    <!-- Middle SDG 13 -->
+    <img src="images/SDG_image/SDGimage13.jpeg" alt="Image description" style="max-width: 100%; height: auto;">
+    <p>Climate action for adaptation, resilience and mitigation (SDG 13)</p>
+    improvement Air quality</p>
+  </div>
+  <div>
+    <!-- Right SDG 15 -->
+    <img src="images/SDG_image/SDGimage15.jpeg" alt="Image description" style="max-width: 100%; height: auto;">
+    <p>Green space, habitats and biodiversity (SDG 15)</p>
+    Green space creation and/or management</p>
+  </div>
+</div>
+
+
+<div style="font-size: 14px;"> <!-- The image source font size -->
+  <p>Source: <a href="https://www.globalgoals.org/goals/"
+  style="color: #7910FF;"> The Global Goals </a> <!-- Hyper color -->
+  <!-- 额外图源记得写一下描述 -->
+</div>
+
+
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
+
+---
+
+
+
+class: inverse, middle, left
+
+
+# Objective:
+# Symbiotic coexistence of built environment and nature
 
 
 
 ---
 
-# Case Study Global North
+
+
+# Current Policy
+
+
+
+### Urban Agriculture
+
+
+
+* In 2017, the city of Jakarta initiated a peri-urban farming program under its Urban Agriculture Program that aimed to achieve sustainable agricultural production, rural economic sustainability and long-term environmental sustainability.
+
+* Gubernatorial Regulation number 14/2018 on Implementation of Urban Farming and Great Design of Urban Farming 2018-2030. (6)
+
+* President Regulation No. 60 2020 on urban farming can also preserve around 30% of open spaces, both for public use (20%) and for private use (10%). (8)
+
+* Medium-Term Regional Medium-Term Plan (RPJMD) for 2007-2012, Jakarta (1) Spatial Planning Jakarta 2030. (1)
+
+
+
+
+
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
+
+
+---
+
+
+# Case Study / Global North
 
 <div style="position: absolute; top: 20px; right: 40px;">
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
@@ -231,12 +364,18 @@ xaringanExtra::use_search(show_icon = TRUE, auto_search	=FALSE) #search function
 ]
 
 
----
-<div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
-</div>
 
-# Case Study/Motivation
+
+
+
+
+
+
+
+---
+
+
+# Case Study / Jarkada
 
 ```{r xaringan-panelset, echo=FALSE}
 xaringanExtra::use_panelset()
@@ -333,45 +472,25 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagre
 ]
 
 
----
+
 <div style="position: absolute; top: 20px; right: 40px;">
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
-# Remote Sensing for Rooftop Farming
-
-## City:
-Jakarta, Indonesia
-
-## Problem Definition:
-`symbiotic coexistence of built environment and nature` <!-- 这里得想一个具体的prob defn -->
-<!-- `...` 这个``是强调符号，可以不用，也可以用其他的方式 -->
-
-<span style="color: red; font-weight: bold;">
-  symbiotic coexistence of built environment and nature
-</span> <!-- 比如这种红色加粗 -->
-
-Food Insecurity: Despite being a bustling metropolis, Jakarta still faces issues of food insecurity, particularly among low-income communities. Limited access to nutritious food, high food prices, and inadequate distribution systems contribute to this problem.  The city experiences a reduction in agricultural land converted into settlements and industrial land, as well as soil deterioration.
-
-Heat Island:...
-
-Air Pollution:...
 
 
----
-<div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
-</div>
 
-# Current Policy
 
-* In 2017, the city of Jakarta initiated a peri-urban farming program under its Urban Agriculture Program that aimed to achieve sustainable agricultural production, rural economic sustainability and long-term environmental sustainability.
 
-* Gubernatorial Regulation number 14/2018 on Implementation of Urban Farming and Great Design of Urban Farming 2018-2030. (6)
 
-* President Regulation No. 60 2020 on urban farming can also preserve around 30% of open spaces, both for public use (20%) and for private use (10%). (8)
 
-* Medium-Term Regional Medium-Term Plan (RPJMD) for 2007-2012, Jakarta (1) Spatial Planning Jakarta 2030. (1)
+
+
+
+
+
+
+
 
 
 ---
@@ -379,46 +498,18 @@ Air Pollution:...
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
-# SDG alignment
+# Methodology Overview
 
-<!-- write a three columns style -->
-<style>
-  .three-cols {
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-  }
-  
-  .three-cols > div {
-    flex-basis: 30%; /* Adjust this value based on your content and spacing needs */
-    margin: 0 1%; /* Adds a little space between columns */
-  }
-</style>
 
-<div class="three-cols">
-  <div>
-    <!-- Left SDG 2 -->
-    <img src="images/SDG_image/SDGimage2.jpeg" alt="Image description" style="max-width: 100%; height: auto;">
-    <p>Text description for image 1.</p>
-  </div>
-  <div>
-    <!-- Middle SDG 13 -->
-    <img src="images/SDG_image/SDGimage13.jpeg" alt="Image description" style="max-width: 100%; height: auto;">
-    <p>Text description for image 2.</p>
-  </div>
-  <div>
-    <!-- Right SDG 15 -->
-    <img src="images/SDG_image/SDGimage15.jpeg" alt="Image description" style="max-width: 100%; height: auto;">
-    <p>Text description for image 3.</p>
-  </div>
+
+---
+
+# Data Architecture
+
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
-
-<div style="font-size: 14px;"> <!-- The image source font size -->
-  blablabla blablabla description blablabla Source: <a href="https://www.globalgoals.org/goals/"
-  style="color: #7910FF;">Originally from blabla, picture name</a> <!-- Hyper color -->
-  <!-- 额外图源记得写一下描述 -->
-</div>
 
 
 ---
@@ -455,27 +546,6 @@ Air Pollution:...
 ]
 ]
 ]
-
-
----
-<div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
-</div>
-
-# Methodology Overview
-
-
-
----
-
-# Data Architecture
-
-<div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
-</div>
-
-
-
 
 
 
@@ -586,9 +656,7 @@ Education
 
 
 ---
-<div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
-</div>
+
 
 # Prototype Preview
 
@@ -596,6 +664,16 @@ Part of the source data are published [here](https://ee-derekding727.projects.ea
 
 
 <iframe width="800" height="430" src="https://www.youtube.com/embed/iyGOVL74P30?si=MIp52Ks1F9r2Ypmh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
+
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
+
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
@@ -663,6 +741,7 @@ Visual signal might not contribute to the understanding of the physical structur
 
 
 ]
+
 
 
 ---
