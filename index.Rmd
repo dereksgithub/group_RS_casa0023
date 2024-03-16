@@ -6,12 +6,14 @@ institute: "CASA, UCL"
 date: "2024/02/04 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
+    css: [xaringan-themer.css, custom.css]
     lib_dir: libs
-    css: xaringan-themer.css
     nature:
       highlightStyle: github
       highlightLines: true
+      ratio: 16:9
       countIncrementalSlides: false
+
 ---
 
 
@@ -119,11 +121,22 @@ xaringanExtra::use_search(show_icon = TRUE, auto_search	=FALSE) #search function
 ```
 
 
+
+
+
 # Jakarta – potential overview
 
 <div style="position: absolute; top: 20px; right: 40px;">
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
+
+
+
+
+
+
+
+
 
 
 ---
