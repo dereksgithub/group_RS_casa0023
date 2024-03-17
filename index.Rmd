@@ -1,4 +1,623 @@
 
+---
+title: "Remote Sensing for Identifying Rooftop Farming and Gardening Potentials in Jakarta, Indonesia"
+subtitle: ""
+author: "Sheng Hu, Zhaowei Cui, Lunan Wei, Mengyu Ding"
+institute: "CASA, UCL"
+date: "2024/02/04 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: [xaringan-themer.css, custom.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: false
+
+---
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  # #1c2653 #527060
+  base_color = "#2A4D3A",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+)
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{css, echo=FALSE}
+/* Changing the font size of each slide */
+
+/* the title font size for each slide */
+.remark-slide-content h1 {
+  font-size: 42px; 
+}
+
+.remark-slide-content h2 {
+  font-size: 36px; 
+}
+
+/*
+.remark-slide-content h3 {
+  font-size: 24px; */
+}
+```
+
+```{r xaringan-all, echo=FALSE}
+#xaringanExtra::use_scribble() #scribble drawing function, but too lag
+xaringanExtra::use_search(show_icon = TRUE, auto_search	=FALSE) #search function
+```
+
+```{css, echo=FALSE}
+/* Changing the font size of title slide */
+.title-slide, .title-slide h1, .title-slide h2 {
+  color: #2A4D3A; 
+}
+
+.title-slide h3 {
+  color: #527060;
+}
+
+.title-slide h1 {
+  font-size: 52px; 
+}
+
+.title-slide h2 {
+  font-size: 36px; 
+}
+
+.title-slide h3 {
+  font-size: 24px; 
+}
+```
+
+```{css, echo=FALSE}
+/* Using selected background image*/
+.title-slide {
+  background-image: url(images/Jakarta_satellite.PNG);
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+/* Adding an white zone for decoration */
+.title-slide::before {
+  content: "";
+  position: absolute;
+  top: 10%; 
+  left: 0%;
+  width: 100%;
+  height: 80%; 
+  background-color: rgba(255, 255, 255, 0.7); 
+  z-index: 1; /* Under the text */
+}
+
+/* Adding the dcorative icon backgrounde */
+.title-slide::after {
+  content: "";
+  position: absolute;
+  top: 10%; 
+  left: 0;
+  width: 100%; 
+  height: 80%; 
+  background-image: url(images/casalogobw.png); 
+  background-size: 135%; 
+  background-position: center; 
+  z-index: 0; /* Under the text and white zone */
+  opacity: 0.3; /* transparent */
+}
+
+/* let text is above all */
+.title-slide > * {
+  position: relative;
+  z-index: 2;
+}
+```
+
+
+
+---
+
+
+
+background-image: url("images/cover.jpg")
+background-position: 50% 50%
+class: center, bottom, inverse
+
+
+---
+# Location
+
+
+### Jakarta, Indonesia
+
+* Jakarta is the nation's **capital city** and the centre of the **largest metropolis** of Indonesia.
+
+* Jakarta covers **661.23 sq.km.** and has a population of **10,679,951** as of mid-2022.
+
+
+* Jakarta is the **economic**, **cultural**, and **political centre** of Indonesia.
+
+
+
+
+
+<div style="display: flex; justify-content: center;">
+  <div style="flex: 1; margin-right: 10px;">
+    <img src="images/Jakarta.jpg" alt="Image description" style="max-width: 100%; height: auto;">
+</div>
+  
+
+
+
+
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
+
+
+
+---
+
+
+
+
+
+
+
+# Problem Definition
+
+.panelset[
+.panel[.panel-name[Food Insecurity]
+
+
+#### Poverty:
+
+**3.48 %** of Jakarta’s residents – over **312,180** people – fall below the poverty line. **low-income communities** have limited access to nutritious food. **High food prices**, and **inadequate distribution** systems contribute to this problem.  
+
+
+
+
+
+#### Land use:
+
+The city experiences a **agricultural land reduction**, whcich was converted into settlements and industrial land, as well as soil deterioration. 
+
+
+
+
+#### Flood:
+
+
+Jakarta are highly susceptible to flooding due to land subsidence and deltaic floodplain location. Flood happened recently in **1996**, **1999**, **2007**, **2013**, and **2020**. These special events poses challenges to the city's food supply.
+
+
+
+]
+
+.panel[.panel-name[Heat Island]
+
+
+
+#### Increase in area:
+
+Previous research shows the area of UHI, areas with temperatures> **300**, in Jakarta in 1989 reached **84.53 sq.km.** or **0.1 %** of the total area. Meanwhile, the decreased number of waters, vegetation, and agriculture area was observed during 2000-2019, followed by the increased number of residence and industry areas. The areas of UHI Jakarta were **36.5%**, **84.7%**, and **85.2%** of the total areas respectively in 2008, 2013 and 2018. 
+
+
+#### Increase in temperature:
+
+The results show that the SUHI intensity is approximately **3°C–6°C** and AUHI is approximately **1°C–2.5 °C**.
+
+
+
+
+.normal-font[
+Source: [Jakarta urban heat Island](https://www-sciencedirect-com.libproxy.ucl.ac.uk/science/article/pii/S2352938523001441)
+]
+
+
+]
+
+
+.panel[.panel-name[Air Pollution]
+
+
+
+
+#### Severity：
+
+
+Jakarta was again ranked **the most polluted city** in the world by Swiss technology company IQAir.
+
+
+
+#### Vehicle emissions:
+
+
+
+The transport sector contributed **67%** of PM2.5 emissions, **58%** of PM10 emissions, and **84%** of Black Carbon emissions in 2019. This pollution poses health risks to residents and has adverse effects on the environment.
+
+
+
+
+
+
+]
+
+]
+
+
+
+
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
+
+
+
+
+---
+
+
+
+class: inverse, middle, left
+
+
+# Objective:
+# Symbiotic coexistence of built environment and nature
+
+
+---
+
+
+
+# SDG Alignment
+
+
+
+
+<!-- write a three columns style -->
+<style>
+  .three-cols {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  
+  .three-cols > div {
+    flex-basis: 30%; /* Adjust this value based on your content and spacing needs */
+    margin: 0 1%; /* Adds a little space between columns */
+  }
+</style>
+
+<div class="three-cols">
+  <div>
+    <!-- Left SDG 2 -->
+    <img src="images/SDG_image/SDGimage2.jpeg" alt="Image description" style="max-width: 100%; height: auto;">
+    <p>ZERO HUNGER (SDG 2)</p>
+    End hunger and ensure year-round access to safe, nutritious and sufficient food</p>
+  </div>
+  <div>
+    <!-- Middle SDG 13 -->
+    <img src="images/SDG_image/SDGimage13.jpeg" alt="Image description" style="max-width: 100%; height: auto;">
+    <p>Climate action for adaptation, resilience and mitigation (SDG 13)</p>
+    improvement Air quality</p>
+  </div>
+  <div>
+    <!-- Right SDG 15 -->
+    <img src="images/SDG_image/SDGimage15.jpeg" alt="Image description" style="max-width: 100%; height: auto;">
+    <p>Green space, habitats and biodiversity (SDG 15)</p>
+    Green space creation and/or management</p>
+  </div>
+</div>
+
+
+<div style="font-size: 14px;"> <!-- The image source font size -->
+  <p>Source: <a href="https://www.globalgoals.org/goals/"
+  style="color: #7910FF;"> The Global Goals </a> <!-- Hyper color -->
+  <!-- 额外图源记得写一下描述 -->
+</div>
+
+
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
+
+
+
+
+---
+
+
+# Case Study / Global North
+
+
+
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
+
+.panelset[
+.panel[.panel-name[NYC]
+
+.pull-left[
+  <img src="images/Case study_Motivation/casestudy1.jpeg"
+  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/>
+  
+  <div style="font-size: 14px;"> <!-- The image source font size -->
+  blablabla blablabla description blablabla Source: <a
+  href="http://sigitkusumawijaya.com/?portfolios=green-boarding-house"
+  style="color: #7910FF;">Originally from blabla, picture name</a> <!-- Hyper color -->
+  <!-- 额外图源记得写一下描述 -->
+  </div>
+]
+
+.pull-right[
+  * NYC New Green Roof Law
+  
+  
+  * Urban farming has long become common practice on idle plots of land in cities, but today...
+  
+  * Sigit, who runs his own company named sigit.kusumawijaya, ...
+  
+  * By function, he says, rooftop gardens brimming with decorative plants...
+
+]
+
+]
+
+
+.panel[.panel-name[Copenhagen]
+
+.pull-left[
+  <img src="images/Case study_Motivation/casestudy2.webp"
+  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/>
+  
+  <div style="font-size: 14px;"> <!-- The image source font size -->
+  blablabla blablabla description blablabla Source: <a
+  href="https://en.antaranews.com/news/256325/jakarta-distributes-hydroponic-racks-to-aid-urban-farming-in-pe
+  santren"
+  style="color: #7910FF;">Originally from blabla, picture name</a> <!-- Hyper color -->
+  <!-- 额外图源记得写一下描述 -->
+  </div>
+]
+
+.pull-right[
+  * Jakarta (ANTARA) - The Jakarta Food Security, Marine, and Agriculture (KPKP)...
+  
+  <br> <!-- 空行做排版，可自行删除 -->
+  <br>
+  
+  
+  * "Santri (Islamic boarding school students) can also learn urban farming methods...
+
+]
+
+]
+
+
+.panel[.panel-name[Chicago]
+
+.pull-left[
+  <img src="images/Case study_Motivation/casestudy3.jpeg"
+  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/>
+  
+  <div style="font-size: 14px;"> <!-- The image source font size -->
+  blablabla blablabla description blablabla Source: <a
+  href="https://www.superindo.co.id/korporasi-keberlanjutan/superindoberkebun/gardening_info_detail/soft_openi
+  ng_super_indo_berkebun_rooftop_pondok_kelapa_jakarta"
+  style="color: #7910FF;">Originally from blabla, picture name</a> <!-- Hyper color -->
+  <!-- 额外图源记得写一下描述 -->
+  </div>
+]
+
+.pull-right[
+  Chicago Rooftop Gardening
+]
+
+]
+
+
+]
+
+
+
+---
+
+class: inverse, middle, left
+
+# Solution:
+
+# Rooftop Farming and Gardening
+
+
+
+
+---
+
+
+
+
+# Prospective Outcomes
+
+
+
+
+
+
+---
+
+
+
+# Current Policy
+
+
+
+### Urban Agriculture
+
+
+
+* In 2017, the city of Jakarta initiated a peri-urban farming program under its Urban Agriculture Program that aimed to achieve sustainable agricultural production, rural economic sustainability and long-term environmental sustainability.
+
+* Gubernatorial Regulation number 14/2018 on Implementation of Urban Farming and Great Design of Urban Farming 2018-2030. (6)
+
+* President Regulation No. 60 2020 on urban farming can also preserve around 30% of open spaces, both for public use (20%) and for private use (10%). (8)
+
+* Medium-Term Regional Medium-Term Plan (RPJMD) for 2007-2012, Jakarta (1) Spatial Planning Jakarta 2030. (1)
+
+
+
+###  Strategy for Air Pollution Control (SPPU)
+
+
+
+
+* Jakarta is a member of the **Asian Network of Major Cities 21**, **C40 Cities Climate Leadership Group** and **ASEAN Smart Cities Network**.
+
+
+
+
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
+
+
+
+---
+
+
+# Case Study / Jarkada
+
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+
+```{r echo=FALSE}
+xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagreen")
+# #C6CDF7
+```
+
+
+.panelset[
+.panel[.panel-name[Commercial]
+
+.pull-left[
+  <img src="images/Case study_Motivation/casestudy1.jpeg"
+  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/>
+  
+  <div style="font-size: 14px;"> <!-- The image source font size -->
+  blablabla blablabla description blablabla Source: <a
+  href="http://sigitkusumawijaya.com/?portfolios=green-boarding-house"
+  style="color: #7910FF;">Originally from blabla, picture name</a> <!-- Hyper color -->
+  <!-- 额外图源记得写一下描述 -->
+  </div>
+]
+
+.pull-right[
+  * ...A recentpopular development is turning rooftops...
+  
+  
+  * Urban farming has long become common practice on idle plots of land in cities, but today...
+  
+  * Sigit, who runs his own company named sigit.kusumawijaya, ...
+  
+  * By function, he says, rooftop gardens brimming with decorative plants...
+
+]
+
+]
+
+
+.panel[.panel-name[Education]
+
+.pull-left[
+  <img src="images/Case study_Motivation/casestudy2.webp"
+  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/>
+  
+  <div style="font-size: 14px;"> <!-- The image source font size -->
+  blablabla blablabla description blablabla Source: <a
+  href="https://en.antaranews.com/news/256325/jakarta-distributes-hydroponic-racks-to-aid-urban-farming-in-pe
+  santren"
+  style="color: #7910FF;">Originally from blabla, picture name</a> <!-- Hyper color -->
+  <!-- 额外图源记得写一下描述 -->
+  </div>
+]
+
+.pull-right[
+  * Jakarta (ANTARA) - The Jakarta Food Security, Marine, and Agriculture (KPKP)...
+  
+  <br> <!-- 空行做排版，可自行删除 -->
+  <br>
+  
+  
+  * "Santri (Islamic boarding school students) can also learn urban farming methods...
+
+]
+
+]
+
+
+.panel[.panel-name[Community]
+
+.pull-left[
+  <img src="images/Case study_Motivation/casestudy3.jpeg"
+  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/>
+  
+  <div style="font-size: 14px;"> <!-- The image source font size -->
+  blablabla blablabla description blablabla Source: <a
+  href="https://www.superindo.co.id/korporasi-keberlanjutan/superindoberkebun/gardening_info_detail/soft_openi
+  ng_super_indo_berkebun_rooftop_pondok_kelapa_jakarta"
+  style="color: #7910FF;">Originally from blabla, picture name</a> <!-- Hyper color -->
+  <!-- 额外图源记得写一下描述 -->
+  </div>
+]
+
+.pull-right[
+  Komitmen Super Indo dalam membawa lingkungan dan komunitas yang lebih baik, kini telah berhasil membuka kebun ke-5 nya dengan konsep paling kekinian. Konsep berkebun di rooftop menjadi salah satu metode berkebun Urban Farming bagi sebagian masyarakat Jakarta yang memiliki lahan sempit dan terbatas. Cara ini tentunya membantu masyarakat dalam berbudidaya tanaman di perkotaan dengan memanfaatkan lahan semaksimal mungkin.
+
+]
+
+]
+
+
+]
+
+
+
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+class: inverse, middle, left
+
+
+# Methodology:
+# Using Remote Sensing for Identifying Rooftop Farming in Jakarta
+
+
+
+
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
