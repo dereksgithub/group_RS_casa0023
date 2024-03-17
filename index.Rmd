@@ -443,8 +443,106 @@ class: inverse, middle, left
 
 
 
-
 # Prospective Outcomes
+
+
+
+.panelset[
+.panel[.panel-name[Food Insecurity]
+
+
+#### Improved Food Security and Self-sufficiency
+
+Rooftop agriculture enhances urban food security, reducing reliance on external food supplies. Growing food within the city also reduces food transportation distances, thereby lowering carbon emissions.
+
+#### Sponge city
+
+Rooftop agriculture can improve urban water resource management by collecting and utilizing rainwater, reducing pressure on stormwater runoff and drainage systems.
+
+]
+
+.panel[.panel-name[Heat Island]
+
+
+#### Cooling city
+
+Rooftop gardening adds vegetation to otherwise heat-absorbing surfaces, such as rooftops, which helps to reduce the heat island effect by providing shade and evaporative cooling. Plants release water vapor through a process called transpiration. This evaporation process has a cooling effect, similar to sweating in humans. 
+
+
+
+
+
+
+#### Air Quality Improvement
+
+Rooftop gardens can help to improve air quality by capturing airborne pollutants and particulate matter. By filtering pollutants from the air, rooftop gardens contribute to a healthier urban environment, which can indirectly contribute to cooling effects by reducing the formation of smog and haze.
+
+
+
+
+
+]
+
+
+.panel[.panel-name[Air Pollution]
+
+
+#### Urban Greening
+
+Rooftop agriculture contributes to increasing green spaces in cities, improving the urban environment, enhancing air quality, and providing more leisure areas for city dwellers.
+
+
+
+
+]
+
+
+.panel[.panel-name[Well being]
+
+
+
+
+
+#### Community Engagement and Social Connection
+
+Rooftop agriculture projects often attract community participation, fostering community cooperation and connections, and increasing urban residents' awareness of and involvement in food production.
+
+
+]
+
+
+
+
+
+
+
+]
+
+
+
+
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
