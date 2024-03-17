@@ -683,7 +683,7 @@ Education
 
 .panel[.panel-name[Feasibility]
 
-<img src="images/Feasibility.png" height="500px" style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="images/Feasibility1.png" height="500px" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ]
 
