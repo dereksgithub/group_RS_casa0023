@@ -134,8 +134,33 @@ class: center, bottom, inverse
 # Issue Identification
 
 
-## City: 
-Jakarta, Indonesia
+### City: Jakarta, Indonesia
+
+Jakarta is a member of the Asian Network of Major Cities 21, C40 Cities Climate Leadership Group and ASEAN Smart Cities Network.
+
+<div style="display: flex; justify-content: center;">
+  <div style="flex: 1; margin-right: 10px;">
+    <img src="images/Jakarta.jpg" alt="Image description" style="max-width: 100%; height: auto;">
+
+</div>
+
+
+
+
+
+
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
+
+
+
+---
+
+
+
+
+
 
 
 ## Problem：
@@ -143,10 +168,16 @@ Jakarta, Indonesia
 .panelset[
 .panel[.panel-name[Food Insecurity]
 
-Official statistics indicate that 3.48 percent of Jakarta’s residents – over 312,180 people – fall below the poverty line. Despite being a bustling metropolis, Jakarta still faces issues of food insecurity, particularly among low-income communities. 
 
+#### Poor population:
+Official statistics indicate that **3.48 %** of Jakarta’s residents – over 312,180 people – fall below the poverty line. Despite being a bustling metropolis, Jakarta still faces issues of food insecurity, particularly among low-income communities. 
+
+
+#### Food supply chain:
 Limited access to nutritious food, high food prices, and inadequate distribution systems contribute to this problem.  
 
+
+#### Land use:
 The city experiences a reduction in agricultural land converted into settlements and industrial land, as well as soil deterioration.​
 
 ]
@@ -155,12 +186,39 @@ The city experiences a reduction in agricultural land converted into settlements
 
 
 
+#### Increase in area:
+
+Previous research shows the area of UHI, areas with temperatures> **300**, in Jakarta in 1989 reached **84.53 sq.km.** or **0.1 %** of the total area. Meanwhile, the decreased number of waters, vegetation, and agriculture area was observed during 2000-2019, followed by the increased number of residence and industry areas. The areas of UHI Jakarta were **36.5%**, **84.7%**, and **85.2%** of the total areas respectively in 2008, 2013 and 2018. 
+
+
+#### Increase in temperature:
+
+The results show that the SUHI intensity is approximately **3°C–6°C** and AUHI is approximately **1°C–2.5 °C**.
+
+
+
+
+.normal-font[
+Source: [Jakarta urban heat Island](https://www-sciencedirect-com.libproxy.ucl.ac.uk/science/article/pii/S2352938523001441)
+]
+
+
 ]
 
 
 .panel[.panel-name[Air Pollution]
 
+
+
+
+#### Vehicle emissions:
+
 The heavy traffic congestion in Jakarta contributes to poor air quality, with high levels of vehicle emissions and industrial pollutants. This pollution poses health risks to residents and has adverse effects on the environment.
+
+
+
+
+
 
 ]
 
@@ -230,6 +288,8 @@ The heavy traffic congestion in Jakarta contributes to poor air quality, with hi
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
+
+
 ---
 
 
@@ -242,39 +302,14 @@ class: inverse, middle, left
 
 
 
----
-
-
-
-# Current Policy
-
-
-
-### Urban Agriculture
-
-
-
-* In 2017, the city of Jakarta initiated a peri-urban farming program under its Urban Agriculture Program that aimed to achieve sustainable agricultural production, rural economic sustainability and long-term environmental sustainability.
-
-* Gubernatorial Regulation number 14/2018 on Implementation of Urban Farming and Great Design of Urban Farming 2018-2030. (6)
-
-* President Regulation No. 60 2020 on urban farming can also preserve around 30% of open spaces, both for public use (20%) and for private use (10%). (8)
-
-* Medium-Term Regional Medium-Term Plan (RPJMD) for 2007-2012, Jakarta (1) Spatial Planning Jakarta 2030. (1)
-
-
-
-
-
-<div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
-</div>
 
 
 ---
 
 
 # Case Study / Global North
+
+
 
 <div style="position: absolute; top: 20px; right: 40px;">
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
@@ -369,6 +404,48 @@ class: inverse, middle, left
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+# Current Policy
+
+
+
+### Urban Agriculture
+
+
+
+* In 2017, the city of Jakarta initiated a peri-urban farming program under its Urban Agriculture Program that aimed to achieve sustainable agricultural production, rural economic sustainability and long-term environmental sustainability.
+
+* Gubernatorial Regulation number 14/2018 on Implementation of Urban Farming and Great Design of Urban Farming 2018-2030. (6)
+
+* President Regulation No. 60 2020 on urban farming can also preserve around 30% of open spaces, both for public use (20%) and for private use (10%). (8)
+
+* Medium-Term Regional Medium-Term Plan (RPJMD) for 2007-2012, Jakarta (1) Spatial Planning Jakarta 2030. (1)
+
+
+
+
+
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
 
 
 
@@ -488,6 +565,15 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagre
 
 
 
+---
+
+
+
+class: inverse, middle, left
+
+
+# Solution:
+# Using Remote Sensing for Identifying Rooftop Farming in Jakarta
 
 
 
