@@ -901,12 +901,12 @@ Part of the source data are published [here](https://ee-derekding727.projects.ea
 .panelset[
 .panel[.panel-name[Data Source]
 ### Potential Issues
-Visual signal might not contribute to the understanding of the physical structure.
-(Data of some variables such as structural load capacity is difficult to obtain.）
+* Visual signal might not contribute to the understanding of the physical structure. <span style="color: red; font-weight: bold;">Roof load bearing capacity data</span> might be difficult to obtain.
 
 ### Mitigation 
-* Consulting with civil and structural experts.
-* Conducting a field investigation.
+* Consulting with <span style="color: blue; font-weight: bold;">civil</span> and <span style="color: blue; font-weight: bold;">structural experts</span>.
+
+* Conducting a <span style="color: blue; font-weight: bold;">field investigation</span>.
 
 ]
 
@@ -915,8 +915,7 @@ Visual signal might not contribute to the understanding of the physical structur
 ### Potential Issues
 * Various factors may occasionally hinder the performance of the model.
 <br>
-<br>
-<br>
+
 
 ### Mitigation
 * Remote assistant (reset model, calibration, etc)
@@ -927,15 +926,17 @@ Visual signal might not contribute to the understanding of the physical structur
 
 .panel[.panel-name[Regulation]
 ### Potential Issues
-* Governance: Local policies (bylaws) could potentially lead to some areas being inaccessible for results.
-* Privacy: The outcomes may encroach upon private spaces, leading to reluctance.
-<br>
-<br>
+* <span style="color: red; font-weight: bold;">Governance:</span> <span style="color: red; font-weight: bold;">Local policies (bylaws)</span> could potentially lead to some areas being <span style="color: red; font-weight: bold;">inaccessible for results</span>.
+
+* <span style="color: red; font-weight: bold;">Privacy:</span> The outcomes may <span style="color: red; font-weight: bold;">encroach upon private spaces</span>, leading to reluctance.
 <br>
 
+
 ### Mitigation 
-* Proactive and early stakeholder engagement
-* Actively engage public opinion through transparent channels
+* <span style="color: blue; font-weight: bold;">Early engagement with stakeholders</span> involves them in the decision-making process through community workshops, online forums, etc.
+
+
+* Actively engage with <span style="color: blue; font-weight: bold;">public opinion</span> and incorporate <span style="color: blue; font-weight: bold;">community feedback</span> through public consultation, social media interactions, etc.
 
 ]
 
@@ -944,13 +945,17 @@ Visual signal might not contribute to the understanding of the physical structur
 
 ### Potential Issues
 * Unforeseen staff turnover.
+
 * Equipment failures.
+
 * Workload fluctuations.
 
 
 ### Mitigation
 * Alternative Personnel Reserve list, Cross-trained.
+
 * Regular maintenance.
+
 * Buffer time, Additional plan.
 
 ]
@@ -965,11 +970,53 @@ Visual signal might not contribute to the understanding of the physical structur
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
-# Contributions and Outlook
+# Contributions
 
-1. Push test
+.pull-left[
+### Main contributions
+
+]
+
+.pull-right[
+### Other contributions
+* Drive <span style="color: blue; font-weight: bold;">economic growth</span>
+  * potential increase in <span style="color: blue; font-weight: bold;">job opportunities</span> and <span style="color: blue; font-weight: bold;">economic activities</span>
+  
+  * <span style="color: blue; font-weight: bold;">urban regeneration</span> (develop attractions, building price appreciation, etc)
+  
+* Effectively utilizing <span style="color: blue; font-weight: bold;">urban spaces</span>
+
+* Engage with the <span style="color: blue; font-weight: bold;">Quadruple Helix</span>
+
+]
 
 
+---
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
+
+# Outlook
+
+<br>
+
+* Delving deeper into <span style="color: blue; font-weight: bold;">Rooftop Agriculture</span>.
+  * Fine-grained recognition
+  
+  * Our Rooftop index + Assigning optimal crops
+
+<br>
+
+* Our method has <span style="color: blue; font-weight: bold;">high reproducibility</span> and can be applied to other similar cities.
+
+<br>
+
+* <span style="color: blue; font-weight: bold;">Rooftop vegetation efficacy monitoring and evaluation</span>
+  * Feedback for continuous urban temperature and air quality improvement.
+  
+  * Based on feedback, optimizing the model.
+  
+  
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
