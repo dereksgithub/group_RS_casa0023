@@ -938,9 +938,9 @@ class: inverse, middle, left
 .panelset[
 .panel[.panel-name[SWOT]
 
-<img src="images/SWOTUpdate.png" height="450px" style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="images/SWOTUpdate.png" height="440px" style="display: block; margin-left: auto; margin-right: auto;"/>
 
-.foognote[Original file available: <a href="illustrations/swot.pdf" download="swot.pdf" >
+.foognote[Original file available: <a href="illustrations/swot.pdf" download="swot_feasibility.pdf" >
   <img src="https://raw.githubusercontent.com/dereksgithub/group_RS_casa0023/a21fb1ab0c2bc3f1171a7fc73f6f656f7974e71f/icons/pdf_icon.png" height="18px" alt="Download Original">
 </a>]
 
@@ -950,12 +950,6 @@ class: inverse, middle, left
 .panel[.panel-name[Feasibility]
 
 <img src="images/FeasibilityUpdate.png" height="500px" style="display: block; margin-left: auto; margin-right: auto;"/>
-
-
-.foognote[Original file available: <a href="illustrations/feasibility.pdf" download="feasibility.pdf" >
-  <img src="https://raw.githubusercontent.com/dereksgithub/group_RS_casa0023/a21fb1ab0c2bc3f1171a7fc73f6f656f7974e71f/icons/pdf_icon.png" height="18px" alt="Download Original">
-</a>]
-
 
 
 ]
@@ -987,7 +981,7 @@ class: inverse, middle, left
 
 .panel[.panel-name[WBS]
 
-<img src="images/WBS.png" height="450px" style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="images/WBS.png" height="440px" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 .foognote[Original file available: <a href="illustrations/wbs.pdf" download="wbs.pdf" >
   <img src="https://raw.githubusercontent.com/dereksgithub/group_RS_casa0023/a21fb1ab0c2bc3f1171a7fc73f6f656f7974e71f/icons/pdf_icon.png" height="18px" alt="Download Original">
@@ -1042,7 +1036,7 @@ class: inverse, middle, left
 
 .panel[.panel-name[Other Budget]
 
-<img src="images/otherBudgetImage.png" height="450px" style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="images/otherBudgetImage.png" height="440px" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 .foognote[Original file available: <a href="illustrations/budget_other.pdf" download="budget_other.pdf" >
   <img src="https://raw.githubusercontent.com/dereksgithub/group_RS_casa0023/a21fb1ab0c2bc3f1171a7fc73f6f656f7974e71f/icons/pdf_icon.png" height="18px" alt="Download Original">
