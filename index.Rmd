@@ -646,14 +646,25 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagre
 .panel[.panel-name[Commercial]
 
 .pull-left[
-  <img src="images/Case study_Motivation/casestudy1.jpeg"
-  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/>
+  <img src="images/Case study_Motivation/casestudy1.jpg"
+  height="300px" style="display: block; margin-left: auto; margin-right: auto;"/>
   
   
 ]
 
 .pull-right[
-  
+
+
+#### sigit.kusumawijaya
+
+* A recentpopular development is turning rooftops into dining areas,such as **cafes**, **bars** or **restaurants**.
+
+
+* The demand comes not only from clients in **Jakarta** but also from other cities, such as **Yogyakarta**, and from **Bali**.
+
+
+* Driven by a healthy lifestyle, many now also focus on productive plants, such as **water spinach**, **spinach**, **tomatoes**, **chilies** and etc
+
 
 ]
 
@@ -664,13 +675,22 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagre
 
 .pull-left[
   <img src="images/Case study_Motivation/casestudy2.webp"
-  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/>
+  height="300px" style="display: block; margin-left: auto; margin-right: auto;"/>
   
   
 ]
 
 .pull-right[
   
+
+#### Santri
+
+
+* The Jakarta Food Security, Marine, and Agriculture (KPKP) Office distributed **hydroponic racks** to facilitate urban farming in several Islamic boarding **schools** under the framework of National Santri Day 2022
+
+
+* Santri (Islamic boarding school students) can also learn urban farming methods and produce local food products by utilizing the limited land as well as participate in the movement to realize independent food security in Indonesia," she stated.
+
 
 ]
 
@@ -681,13 +701,22 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagre
 
 .pull-left[
   <img src="images/Case study_Motivation/casestudy3.jpeg"
-  height="270px" style="display: block; margin-left: auto; margin-right: auto;"/>
+  height="300px" style="display: block; margin-left: auto; margin-right: auto;"/>
   
  
 ]
 
 .pull-right[
-  Komitmen Super Indo dalam membawa lingkungan dan komunitas yang lebih baik, kini telah berhasil membuka kebun ke-5 nya dengan konsep paling kekinian. Konsep berkebun di rooftop menjadi salah satu metode berkebun Urban Farming bagi sebagian masyarakat Jakarta yang memiliki lahan sempit dan terbatas. Cara ini tentunya membantu masyarakat dalam berbudidaya tanaman di perkotaan dengan memanfaatkan lahan semaksimal mungkin.
+
+
+#### Super Indo
+
+
+* Committed to creating a better environment and community, Super Indo has now successfully opened its fifth garden with the most modern concept.
+
+
+
+
 
 ]
 
