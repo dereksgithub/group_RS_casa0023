@@ -434,23 +434,25 @@ class: inverse, middle, left
 ]
 
 
-.panel[.panel-name[Chicago]
+.panel[.panel-name[Washington D.C.]
 
 .pull-left[
-  <img src="images/Case study_Motivation/casestudy3.jpeg"
+  <img src="images/USACasestudy.png"
   height="270px" style="display: block; margin-left: auto; margin-right: auto;"/>
   
   <div style="font-size: 14px;"> <!-- The image source font size -->
-  blablabla blablabla description blablabla Source: <a
-  href="https://www.superindo.co.id/korporasi-keberlanjutan/superindoberkebun/gardening_info_detail/soft_openi
-  ng_super_indo_berkebun_rooftop_pondok_kelapa_jakarta"
-  style="color: #7910FF;">Originally from blabla, picture name</a> <!-- Hyper color -->
+   Rooftop Gardening in Washington D.C.Source: <a
+  href="https://land8.com/washington-d-c-leads-north-americas-10-green-roof-industry-growth-of-2013/"
+  style="color: #7910FF;">Originally from Green Roofs for Healthy Cities (GRHC), Green Roofs</a> <!-- Hyper color -->
   <!-- 额外图源记得写一下描述 -->
   </div>
 ]
 
 .pull-right[
-  Chicago Rooftop Gardening
+  * Incentive programs, the one launched in Washington D.C., offer financial support to building owners for installing green roofs, providing up to $15 per square foot in certain areas(Rudzinskas, Lutz, & McElhinney, 2017).
+  
+  * These policies aim to lower the upfront costs of green roof installation, making it a more feasible option for improving air quality, reducing air pollution and heat island effect. 
+
 ]
 
 ]
@@ -785,13 +787,13 @@ class: inverse, middle, left
 .panelset[
 .panel[.panel-name[SWOT]
 
-<img src="images/SWOT1.png" height="450px" style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="images/SWOTUpdate.png" height="450px" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ]
 
 .panel[.panel-name[Feasibility]
 
-<img src="images/Feasibility1.png" height="500px" style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="images/FeasibilityUpdate.png" height="500px" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ]
 
@@ -839,6 +841,23 @@ class: inverse, middle, left
 </div>
 
 # Budget Breakdown
+
+.panelset[
+.panel[.panel-name[Personnel Budget]
+
+<img src="images/personnelBudgetImage.png" height="400px" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+]
+
+.panel[.panel-name[Other Budget]
+
+<img src="images/otherBudgetImage.png" height="450px" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+]
+
+
+]
+
 
 
 
