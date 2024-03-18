@@ -375,7 +375,7 @@ class: inverse, middle, left
 .panel[.panel-name[NYC]
 
 .pull-left[
-  <img src="images/Case study_Motivation/nyc.jpg"
+  <img src="https://images.squarespace-cdn.com/content/v1/6063c397ece4057779563706/a93311a6-47ac-4d51-b121-4e8ce7dc26ad/DSC01942+%281%29.JPG?format=1500w"
   height="270px" style="display: block; margin-left: auto; margin-right: auto;"/>
   
   <div style="font-size: 14px;"> <!-- The image source font size -->
