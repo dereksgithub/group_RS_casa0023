@@ -1065,12 +1065,12 @@ Part of the source data are published [here](https://ee-derekding727.projects.ea
 .panelset[
 .panel[.panel-name[Data Source]
 ### Potential Issues
-* Visual signal might not contribute to the understanding of the physical structure. <span style="color: red; font-weight: bold;">Roof load bearing capacity data</span> might be difficult to obtain.
+* Visual signal might not contribute to the understanding of the physical structure. **Roof load bearing capacity data** might be difficult to obtain.
 
 ### Mitigation 
-* Consulting with <span style="color: blue; font-weight: bold;">civil</span> and <span style="color: blue; font-weight: bold;">structural experts</span>.
+* Consulting with **civil** and **structural experts**.
 
-* Conducting a <span style="color: blue; font-weight: bold;">field investigation</span>.
+* Conducting a **field investigation** to supplement our dataset.
 
 ]
 
@@ -1090,17 +1090,17 @@ Part of the source data are published [here](https://ee-derekding727.projects.ea
 
 .panel[.panel-name[Regulation]
 ### Potential Issues
-* <span style="color: red; font-weight: bold;">Governance:</span> <span style="color: red; font-weight: bold;">Local policies (bylaws)</span> could potentially lead to some areas being <span style="color: red; font-weight: bold;">inaccessible for results</span>.
+* **Governance: Local policies (bylaws)** could potentially lead to some areas being **inaccessible for results**.
 
-* <span style="color: red; font-weight: bold;">Privacy:</span> The outcomes may <span style="color: red; font-weight: bold;">encroach upon private spaces</span>, leading to reluctance.
+* **Privacy:** The outcomes may **encroach upon private spaces**, leading to reluctance.
 <br>
 
 
 ### Mitigation 
-* <span style="color: blue; font-weight: bold;">Early engagement with stakeholders</span> involves them in the decision-making process through community workshops, online forums, etc.
+* **Early engagement with stakeholders** involves them in the decision-making process through community workshops, online forums, etc.
 
 
-* Actively engage with <span style="color: blue; font-weight: bold;">public opinion</span> and incorporate <span style="color: blue; font-weight: bold;">community feedback</span> through public consultation, social media interactions, etc.
+* Actively engage with **public opinion** and incorporate **community feedback** through public consultation, social media interactions, etc.
 
 ]
 
@@ -1116,9 +1116,9 @@ Part of the source data are published [here](https://ee-derekding727.projects.ea
 
 
 ### Mitigation
-* Alternative Personnel Reserve list, Cross-trained.
+* Alternative Personnel Reserve list.
 
-* Regular maintenance.
+* Regular maintenance of equipment.
 
 * Buffer time, Additional plan.
 
