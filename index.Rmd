@@ -1,5 +1,5 @@
 ---
-title: "Remote Sensing for Identifying Rooftop Farming and Gardening Potentials in Jakarta, Indonesia"
+title: "Green Rooftop - Remote Sensing for Identifying Rooftop Farming and Gardening Potentials in Jakarta, Indonesia"
 subtitle: ""
 author: "Sheng Hu, Zhaowei Cui, Lunan Wei, Mengyu Ding"
 institute: "CASA, UCL"
@@ -220,9 +220,7 @@ The results show that the SUHI intensity is approximately **3°C–6°C** and AU
 
 
 
-.normal-font[
-Source: [Jakarta urban heat Island](https://www-sciencedirect-com.libproxy.ucl.ac.uk/science/article/pii/S2352938523001441)
-]
+
 
 ]
 .pull-right[
@@ -712,7 +710,7 @@ xaringanExtra::style_panelset_tabs(foreground = "honeydew", background = "seagre
 #### Super Indo
 
 
-* Committed to creating a better environment and community, Super Indo has now successfully opened its fifth garden with the most modern concept.
+* Committed to creating a better environment and community, Super Indo has now successfully opened its **fifth** garden with the most modern concept.
 
 
 
@@ -1138,6 +1136,16 @@ Part of the source data are published [here](https://ee-derekding727.projects.ea
 
 .pull-left[
 ### Main contributions
+* Holistic solution for Jakarta: Rooftop Farming and Gardening, with a primary emphasis on significantly reducing air pollution.
+
+* Directly target **air quality improvement** to tackle urban pollution effectively.
+
+* Additionally, mitigate the Urban Heat Island Effect and **enhance urban climate resilience**.
+
+* Indirectly **address potential food insecurity** through urban agriculture initiatives.
+
+* **Share insights and data**: Rooftop Index + Open-source our dataset and model.
+
 
 ]
 
