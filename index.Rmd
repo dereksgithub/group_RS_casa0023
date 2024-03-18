@@ -379,12 +379,12 @@ class: inverse, middle, left
 .panel[.panel-name[NYC]
 
 .pull-left[
-  <img src="images/Case study_Motivation/casestudy1.jpeg"
+  <img src="images/Case study_Motivation/nyc.jpg"
   height="270px" style="display: block; margin-left: auto; margin-right: auto;"/>
   
   <div style="font-size: 14px;"> <!-- The image source font size -->
-  blablabla blablabla description blablabla Source: <a
-  href="http://sigitkusumawijaya.com/?portfolios=green-boarding-house"
+  Vice Media’s 15,000sf green roof by Brooklyn Grange on Source: <a
+  href="https://www.brooklyngrangefarm.com/commercial/vice-media"
   style="color: #7910FF;">Originally from blabla, picture name</a> <!-- Hyper color -->
   <!-- 额外图源记得写一下描述 -->
   </div>
@@ -426,9 +426,7 @@ class: inverse, middle, left
   
   <br> <!-- 空行做排版，可自行删除 -->
   <br>
-  
-  
-  * "Santri (Islamic boarding school students) can also learn urban farming methods...
+
 
 ]
 
@@ -725,18 +723,22 @@ class: inverse, middle, left
 </div>
 
 # Methodology Overview
-
+<p align="center">
+<img src="images/methodology/methodology_overview.png" height="530px"/>
+</p>
 
 
 ---
 
-# Data Architecture
+# Modeling Architecture
 
 <div style="position: absolute; top: 20px; right: 40px;">
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
-
+<p align="center">
+<img src="images/methodology/ML_Overview.png" height="510px"/>
+</p>
 
 ---
 # Project Data Source
