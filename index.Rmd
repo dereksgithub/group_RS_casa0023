@@ -795,7 +795,7 @@ class: inverse, middle, left
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
-<br>
+
  <table>
   <tr>
     <td>Data Type</td>
@@ -842,7 +842,7 @@ class: inverse, middle, left
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
-<br>
+
 <table>
   <tr>
     <td>Data Type</td>
@@ -969,7 +969,7 @@ class: inverse, middle, left
 .panelset[
 .panel[.panel-name[Workpack Breakdown]
 <p align="center">
-<img src="images/WP_Breakdown.png" height="400px"/>
+<img src="images/WP_Breakdown.png" height="410px"/>
 </p>
 
 .foognote[Original file available: <a href="illustrations/pm_all.pdf" download="pm_all.pdf" >
@@ -981,7 +981,7 @@ class: inverse, middle, left
 
 .panel[.panel-name[WBS]
 
-<img src="images/WBS.png" height="440px" style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="images/WBS.png" height="455px" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 
 
@@ -1019,9 +1019,9 @@ class: inverse, middle, left
 .panelset[
 .panel[.panel-name[Personnel Budget]
 
-<img src="images/personnelBudgetImage.png" height="400px" style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="images/personnelBudgetImage.png" height="390px" style="display: block; margin-left: auto; margin-right: auto;"/>
 
-.foognote[Original file available: <a href="illustrations/budget_personnel.pdf" download="budget_all.pdf" >
+.foognote[Original file available: <a href="illustrations/budget_all.pdf" download="budget_all.pdf" >
   <img src="https://raw.githubusercontent.com/dereksgithub/group_RS_casa0023/a21fb1ab0c2bc3f1171a7fc73f6f656f7974e71f/icons/pdf_icon.png" height="18px" alt="Download Original">
 </a>]
 
