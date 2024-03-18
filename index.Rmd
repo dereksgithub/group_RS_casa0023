@@ -766,8 +766,8 @@ class: inverse, middle, left
 <img src="images/methodology/methodology_overview.png" height="515px"/>
 </p>
 
-.foognote[Original file available: <a href="/illustrations/methodology_overview.pdf" download="methodology_overview.pdf" >
-  <img src="/icons/pdf_icon.png" height="18px" alt="Download Original">
+.foognote[Original file available: <a href="illustrations/methodology_overview.pdf" download="methodology_overview.pdf" >
+  <img src="icons/pdf_icon.png" height="18px" alt="Download Original">
 </a>]
 
 ---
