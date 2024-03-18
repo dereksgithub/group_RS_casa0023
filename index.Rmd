@@ -1093,13 +1093,13 @@ Part of the source data are published [here](https://ee-derekding727.projects.ea
 ### Main contributions
 * Holistic solution for Jakarta: Rooftop Farming and Gardening, with a primary emphasis on significantly reducing air pollution.
 
-* Directly target air quality improvement to tackle urban pollution effectively.
+* Directly target **air quality improvement** to tackle urban pollution effectively.
 
-* Additionally, mitigate the Urban Heat Island Effect and enhance urban climate resilience.
+* Additionally, mitigate the Urban Heat Island Effect and **enhance urban climate resilience**.
 
-* Indirectly address potential food insecurity through urban agriculture initiatives.
+* Indirectly **address potential food insecurity** through urban agriculture initiatives.
 
-* Share insights and data: Rooftop Index + Open-source our dataset and model.
+* **Share insights and data**: Rooftop Index + Open-source our dataset and model.
 
 
 ]
