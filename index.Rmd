@@ -1138,29 +1138,31 @@ Part of the source data are published [here](https://ee-derekding727.projects.ea
 
 .pull-left[
 ### Main contributions
-* Holistic solution for Jakarta: Rooftop Farming and Gardening, with a primary emphasis on significantly reducing air pollution.
+* Address the various challenges in Jakarta with a **holistic solution: Rooftop Farming and Gardening**
 
-* Directly target **air quality improvement** to tackle urban pollution effectively.
+* Directly target **air quality improvement**
 
-* Additionally, mitigate the Urban Heat Island Effect and **enhance urban climate resilience**.
+* **Enhance urban climate resilience**
 
-* Indirectly **address potential food insecurity** through urban agriculture initiatives.
+* Indirectly **address potential food insecurity**
 
-* **Share insights and data**: Rooftop Index + Open-source our dataset and model.
+* Improvement in **resident satisfaction** and **quality of life**
+
+* **Share insights and data**: Rooftop Index + Open-source our dataset and model
 
 
 ]
 
 .pull-right[
 ### Other contributions
-* Drive <span style="color: blue; font-weight: bold;">economic growth</span>
-  * potential increase in <span style="color: blue; font-weight: bold;">job opportunities</span> and <span style="color: blue; font-weight: bold;">economic activities</span>
+* Drive **economic growth**
+  * potential increase in **job opportunities** and **economic activities**
   
-  * <span style="color: blue; font-weight: bold;">urban regeneration</span> (develop attractions, building price appreciation, etc)
+  * **urban regeneration** (develop attractions, building price appreciation, etc)
   
-* Effectively utilizing <span style="color: blue; font-weight: bold;">urban spaces</span>
+* Effectively utilizing **urban spaces**
 
-* Engage with the <span style="color: blue; font-weight: bold;">Quadruple Helix</span>
+* Engage with the **Quadruple Helix**
 
 ]
 
@@ -1174,18 +1176,18 @@ Part of the source data are published [here](https://ee-derekding727.projects.ea
 
 <br>
 
-* Delving deeper into <span style="color: blue; font-weight: bold;">Rooftop Agriculture</span>.
+* Delving deeper into **Rooftop Agriculture**.
   * Fine-grained recognition
   
   * Our Rooftop index + Assigning optimal crops
 
 <br>
 
-* Our method has <span style="color: blue; font-weight: bold;">high reproducibility</span> and can be applied to other similar cities.
+* Our method has **high reproducibility** and can be applied to other similar cities.
 
 <br>
 
-* <span style="color: blue; font-weight: bold;">Rooftop vegetation efficacy monitoring and evaluation</span>
+* **Rooftop vegetation efficacy monitoring and evaluation**
   * Feedback for continuous urban temperature and air quality improvement.
   
   * Based on feedback, optimizing the model.
