@@ -763,7 +763,7 @@ class: inverse, middle, left
 
 # Methodology Overview
 <p align="center">
-<img src="images/methodology/methodology_overview.png" height="515px"/>
+<img src="images/methodology/methodology_overview.png" height="505px"/>
 </p>
 
 .foognote[Original file available: <a href="illustrations/methodology_overview.pdf" download="methodology_overview.pdf" >
@@ -779,11 +779,11 @@ class: inverse, middle, left
 </div>
 
 <p align="center">
-<img src="images/methodology/ML_Overview.png" height="515px"/>
+<img src="images/methodology/ML_Overview.png" height="505px"/>
 </p>
 
-.foognote[Original file available: <a href="/illustrations/ML.pdf" download="ml.pdf" >
-  <img src="/icons/pdf_icon.png" height="18px" alt="Download Original">
+.foognote[Original file available: <a href="illustrations/ML.pdf" download="ml.pdf" >
+  <img src="https://raw.githubusercontent.com/dereksgithub/group_RS_casa0023/a21fb1ab0c2bc3f1171a7fc73f6f656f7974e71f/icons/pdf_icon.png" height="18px" alt="Download Original">
 </a>]
 
 
@@ -905,22 +905,22 @@ class: inverse, middle, left
 .panel[.panel-name[Data Value]
 
 
-<img src="images/data_value_chain.png" height="350px" style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="images/data_value_chain.png" height="380px" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 
 
-.foognote[Original file available: <a href="/illustrations/data_abstract.pdf" download="data_concept.pdf" >
-<img src="/icons/pdf_icon.png" height="18px" alt="Download Original">
+.foognote[Original file available: <a href="illustrations/data_abstract.pdf" download="data_concept.pdf" >
+<img src="https://raw.githubusercontent.com/dereksgithub/group_RS_casa0023/a21fb1ab0c2bc3f1171a7fc73f6f656f7974e71f/icons/pdf_icon.png" height="18px" alt="Download Original">
 </a>]
 
-
+]
 
 .panel[.panel-name[Data Flow]
 
 <img src="images/dataflow.png" height="380px" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ]
-]
+
 ]
 
 
@@ -940,11 +940,23 @@ class: inverse, middle, left
 
 <img src="images/SWOTUpdate.png" height="450px" style="display: block; margin-left: auto; margin-right: auto;"/>
 
+.foognote[Original file available: <a href="illustrations/swot.pdf" download="swot.pdf" >
+  <img src="https://raw.githubusercontent.com/dereksgithub/group_RS_casa0023/a21fb1ab0c2bc3f1171a7fc73f6f656f7974e71f/icons/pdf_icon.png" height="18px" alt="Download Original">
+</a>]
+
+
 ]
 
 .panel[.panel-name[Feasibility]
 
 <img src="images/FeasibilityUpdate.png" height="500px" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+
+.foognote[Original file available: <a href="illustrations/feasibility.pdf" download="feasibility.pdf" >
+  <img src="https://raw.githubusercontent.com/dereksgithub/group_RS_casa0023/a21fb1ab0c2bc3f1171a7fc73f6f656f7974e71f/icons/pdf_icon.png" height="18px" alt="Download Original">
+</a>]
+
+
 
 ]
 
@@ -966,8 +978,8 @@ class: inverse, middle, left
 <img src="images/WP_Breakdown.png" height="400px"/>
 </p>
 
-.foognote[Original file available: <a href="/illustrations/wp.pdf" download="wp.pdf" >
-  <img src="/icons/pdf_icon.png" height="18px" alt="Download Original">
+.foognote[Original file available: <a href="illustrations/wp.pdf" download="wp.pdf" >
+  <img src="https://raw.githubusercontent.com/dereksgithub/group_RS_casa0023/a21fb1ab0c2bc3f1171a7fc73f6f656f7974e71f/icons/pdf_icon.png" height="18px" alt="Download Original">
 </a>]
 
 
@@ -977,8 +989,8 @@ class: inverse, middle, left
 
 <img src="images/WBS.png" height="450px" style="display: block; margin-left: auto; margin-right: auto;"/>
 
-.foognote[Original file available: <a href="/illustrations/wbs.pdf" download="wbs.pdf" >
-  <img src="/icons/pdf_icon.png" height="18px" alt="Download Original">
+.foognote[Original file available: <a href="illustrations/wbs.pdf" download="wbs.pdf" >
+  <img src="https://raw.githubusercontent.com/dereksgithub/group_RS_casa0023/a21fb1ab0c2bc3f1171a7fc73f6f656f7974e71f/icons/pdf_icon.png" height="18px" alt="Download Original">
 </a>]
 
 
@@ -994,8 +1006,8 @@ class: inverse, middle, left
 </p>
 
 
-.foognote[Original file available: <a href="/illustrations/gantt.pdf" download="gantt.pdf" >
-  <img src="/icons/pdf_icon.png" height="18px" alt="Download Original">
+.foognote[Original file available: <a href="illustrations/gantt.pdf" download="gantt.pdf" >
+  <img src="https://raw.githubusercontent.com/dereksgithub/group_RS_casa0023/a21fb1ab0c2bc3f1171a7fc73f6f656f7974e71f/icons/pdf_icon.png" height="18px" alt="Download Original">
 </a>]
 
 
@@ -1020,11 +1032,23 @@ class: inverse, middle, left
 
 <img src="images/personnelBudgetImage.png" height="400px" style="display: block; margin-left: auto; margin-right: auto;"/>
 
+.foognote[Original file available: <a href="illustrations/budget_personnel.pdf" download="budget_personnel.pdf" >
+  <img src="https://raw.githubusercontent.com/dereksgithub/group_RS_casa0023/a21fb1ab0c2bc3f1171a7fc73f6f656f7974e71f/icons/pdf_icon.png" height="18px" alt="Download Original">
+</a>]
+
+
+
 ]
 
 .panel[.panel-name[Other Budget]
 
 <img src="images/otherBudgetImage.png" height="450px" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+.foognote[Original file available: <a href="illustrations/budget_other.pdf" download="budget_other.pdf" >
+  <img src="https://raw.githubusercontent.com/dereksgithub/group_RS_casa0023/a21fb1ab0c2bc3f1171a7fc73f6f656f7974e71f/icons/pdf_icon.png" height="18px" alt="Download Original">
+</a>]
+
+
 
 ]
 
