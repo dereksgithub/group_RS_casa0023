@@ -763,9 +763,12 @@ class: inverse, middle, left
 
 # Methodology Overview
 <p align="center">
-<img src="images/methodology/methodology_overview.png" height="530px"/>
+<img src="images/methodology/methodology_overview.png" height="515px"/>
 </p>
 
+.foognote[Original file available: <a href="/illustrations/methodology_overview.pdf" download="methodology_overview.pdf" >
+  <img src="/icons/pdf_icon.png" height="18px" alt="Download Original">
+</a>]
 
 ---
 
@@ -776,8 +779,14 @@ class: inverse, middle, left
 </div>
 
 <p align="center">
-<img src="images/methodology/ML_Overview.png" height="510px"/>
+<img src="images/methodology/ML_Overview.png" height="515px"/>
 </p>
+
+.foognote[Original file available: <a href="/illustrations/ML.pdf" download="ml.pdf" >
+  <img src="/icons/pdf_icon.png" height="18px" alt="Download Original">
+</a>]
+
+
 
 ---
 # Project Data Source 1
@@ -786,42 +795,44 @@ class: inverse, middle, left
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
-
+<br>
  <table>
   <tr>
     <td>Data Type</td>
     <td>Potential Dataset</td>
     <td>Access</td>
-    <td>Temporal Resolution</td>
-    <td>Spatial Resolution</td>
+    <td>Resolution</td>
+    
   </tr>
   <tr>
     <td>Building Footprint Data</td>
     <td>Google's Open Buildings Dataset, Jakarta Building Records, Crowd-sourced World-wide Building Footprint (See et al., 2022), BIM (Building Information Model) </td>
     <td>Open-source</td>
-    <td>14</td>
-    <td>10</td>
+    <td>Google Open Buildings: <0.5m, not up to date; </td>
+    
   </tr>
   <tr>
     <td>Urban Temperature</td>
     <td>MODIS, Jakarta’s Historical Temperature Data</td>
     <td>Open-source</td>
-    <td>14</td>
-    <td>10</td>
+    <td>MODIS: Daily to Monthly, Bands 1–2 – 250 meter. Bands 3–7 – 500 meter. Bands 8–36 – 1000 meter</td>
+    
   </tr>
   <tr>
     <td>Weather</td>
     <td>Global Forecast System (GFS), Jakarta Weather Data</td>
     <td>Open-source</td>
-    <td>14</td>
-    <td>10</td>
+    <td>GFS: forecast interval every 6 hours, spatial resolution: 28 KM;</td>
+    
   </tr>
+  
   <tr>
-    <td>Rainfall</td>
-    <td>Multi-satellite Retrievals for GPM (IMERG), Jakarta ground rainfall records</td>
+    <td>Air Quality</td>
+    <td>Sentinel-5P, Air quality data of Jakarta</td>
     <td>Open-source</td>
-    <td>14</td>
-    <td>10</td>
+    <td>Sent 5P: daily, 5.5km x 3.5 km. Other Commercial Remote Sensing Data Air Quality Data. Ground Sensor Data: i.e. AQI(Lead: annual 0.50 μg/m3; PM 2.5: daily 25 μg/m3; PM10: daily 8 μg/m3; SO2: daily 0.02 ppm; NO2: daily 0.12 ppm; etc.),
+   
+  
   </tr>
 </table> 
 ---
@@ -831,41 +842,49 @@ class: inverse, middle, left
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
+<br>
 <table>
   <tr>
-    <td>Air Quality</td>
-    <td>Sentinel-5P, Air quality data of Jakarta</td>
+    <td>Data Type</td>
+    <td>Potential Dataset</td>
+    <td>Access</td>
+    <td>Resolution</td>
+  </tr>
+ <tr>
+    <td>Rainfall</td>
+    <td>Multi-satellite Retrievals for GPM (IMERG), Jakarta ground rainfall records</td>
     <td>Open-source</td>
-    <td>14</td>
-    <td>10</td>
+    <td>0.1 millimeters (mm) per month</td>
   </tr>
   <tr>
     <td>High resolution Satellite SAR/ Optiacal Imagery</td>
     <td>Landsat 8/9, Sentinel-2/Sentinel-1, and Other Commercial Data</td>
-    <td>Open-source</td>
-    <td>14</td>
-    <td>10</td>
+    <td>Open-source and Commercial</td>
+    <td>Spatial resolution: 10 to 60m, Temporal: revisit less than 1 day </td>
+   
   </tr>
   <tr>
     <td>Other Environment Data</td>
     <td>Humidity, Historical Vegetation Coverage Data, Light Pollution Data etc.</td>
     <td>Open-source</td>
-    <td>14</td>
-    <td>10</td>
+    <td>Various resolutions</td>
+   
   </tr>
   <tr>
     <td>Existing Land Use Data</td>
     <td>Latest LULC Dataset (Putri, Abadi and Kafafa, 2020)</td>
     <td>Open-source</td>
-    <td>14</td>
-    <td>10</td>
+    <td>Published data ranging from 30m to 60m. <br> Temporal: Historical records.</td>
+   
   </tr>
   <tr>
     <td>Census Data</td>
-    <td>14</td>
+    <td>Source: <a
+  href="https://energydata.info/dataset/indonesia--population-density-2015"
+  style="color: #7910FF;">Jakarta WorldPop Data</a></td>
     <td>Open-source</td>
-    <td>14</td>
-    <td>10</td>
+    <td>Population density per pixel at 100 metre resolution</td>
+    
   </tr>
 </table> 
 
@@ -887,6 +906,12 @@ class: inverse, middle, left
 
 
 <img src="images/data_value_chain.png" height="350px" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+
+
+.foognote[Original file available: <a href="/illustrations/data_abstract.pdf" download="data_concept.pdf" >
+<img src="/icons/pdf_icon.png" height="18px" alt="Download Original">
+</a>]
 
 
 
@@ -940,13 +965,26 @@ class: inverse, middle, left
 <p align="center">
 <img src="images/WP_Breakdown.png" height="400px"/>
 </p>
+
+.foognote[Original file available: <a href="/illustrations/wp.pdf" download="wp.pdf" >
+  <img src="/icons/pdf_icon.png" height="18px" alt="Download Original">
+</a>]
+
+
 ]
 
 .panel[.panel-name[WBS]
 
 <img src="images/WBS.png" height="450px" style="display: block; margin-left: auto; margin-right: auto;"/>
 
+.foognote[Original file available: <a href="/illustrations/wbs.pdf" download="wbs.pdf" >
+  <img src="/icons/pdf_icon.png" height="18px" alt="Download Original">
+</a>]
+
+
+
 ]
+
 
 .panel[.panel-name[Gantt Chart]
 
@@ -954,6 +992,13 @@ class: inverse, middle, left
 
 <img src="images/gantt.png" height="400px"/>
 </p>
+
+
+.foognote[Original file available: <a href="/illustrations/gantt.pdf" download="gantt.pdf" >
+  <img src="/icons/pdf_icon.png" height="18px" alt="Download Original">
+</a>]
+
+
 ]
 
 
