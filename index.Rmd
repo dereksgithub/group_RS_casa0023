@@ -865,7 +865,7 @@ class: inverse, middle, left
   </tr>
   <tr>
     <td>Other Environment Data</td>
-    <td>Humidity, Historical Vegetation Coverage Data, Light Pollution Data etc.</td>
+    <td>Wind Speed Data, Humidity, Historical Vegetation Coverage Data, Light Pollution Data etc.</td>
     <td>Open-source</td>
     <td>Various resolutions</td>
    
