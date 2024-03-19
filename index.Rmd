@@ -1040,9 +1040,14 @@ class: inverse, middle, left
 ]
 
 
+.panel[.panel-name[Total Budget]
+
+<img src="images/workBudgetTotal.png" height="370px" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+The **total budget** of the project is **Personnel Budget** + **Other Budget** = **£302,000**
+
 ]
-
-
+]
 
 
 ---
