@@ -1293,7 +1293,7 @@ Zambrano-Prado, P., Muñoz-Liesa, J., Josa, A., Rieradevall, J., Alamús, R., Ga
 
 class: inverse, center, middle
 
-# Thanks!
+# Thank you!
 
 <br>
 ## Q & A
