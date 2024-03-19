@@ -1097,12 +1097,12 @@ Part of the source data are published [here](https://ee-derekding727.projects.ea
 
 .panel[.panel-name[Model]
 ### Potential Issues
-* Our hybrid model may be subject to the performance limitations of individual models, impacting the model's overall performance.
+* Our **ensemble model** may be subject to the performance limitations of individual models, impacting the model's **overall performance**.
 <br>
 
 
 ### Mitigation
-* Provide model calibration services on demand.
+* Provide **model calibration** services on demand.
 
 ]
 
