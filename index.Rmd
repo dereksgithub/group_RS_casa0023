@@ -1085,7 +1085,7 @@ Part of the source data are published [here](https://ee-derekding727.projects.ea
 .panelset[
 .panel[.panel-name[Data Source]
 ### Potential Issues
-* Visual signal might not contribute to the understanding of the physical structure. **Roof load bearing capacity data** might be difficult to obtain.
+* Visual signal might not contribute to the understanding of the physical structure. **Roof load-bearing capacity data** might be difficult to obtain.
 
 ### Mitigation 
 * Consulting with **civil** and **structural experts**.
