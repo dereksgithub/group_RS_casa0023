@@ -1226,9 +1226,7 @@ Beaupre, J. (2017). ‘Responding to a Changing Environment: New York City’s G
 
 Chisense, C. (2012). ‘CLASSIFICATION OF ROOF MATERIALS USING HYPERSPECTRAL DATA’. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XXXIX-B7, pp. 103–107. doi: 10.5194/isprsarchives-XXXIX-B7-103-2012.
 
-Putri, R. F., Abadi, A. W. and Kafafa, U. (2020). ‘The correlation analysis between urbanization phenomena and landuse change in Jakarta Special Province’. E3S Web of Conferences. Edited by E. Haryono, F. Lavigne, R. Che Omar, B. White, A. Cardenas Tristan, D. Rahmawati Hizbaron, and R. Fitria Putri, 200, p. 05003. doi: 10.1051/e3sconf/202020005003.
-
-Ramdhoni, S. et al. (2016) Open Green Space Development Priority Based on Distribution of air Temperature Change in Capital City of Indonesia, Jakarta. Procedia environmental sciences. 33204–213. 
+NATSCI 397A – EROSS (n.d.) 'Green Roofs: An Analysis on Air Pollution Removal and Policy Implementation', University of Massachusetts Amherst. Available at: https://websites.umass.edu/natsci397a-eross/green-roofs-an-analysis-on-air-pollution-removal-and-policy-implementation/ (Accessed: [the date you accessed the website]).
 
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
@@ -1236,9 +1234,25 @@ Ramdhoni, S. et al. (2016) Open Green Space Development Priority Based on Distri
 </div>
 
 # Reference 2
+
+Putri, R. F., Abadi, A. W. and Kafafa, U. (2020). ‘The correlation analysis between urbanization phenomena and landuse change in Jakarta Special Province’. E3S Web of Conferences. Edited by E. Haryono, F. Lavigne, R. Che Omar, B. White, A. Cardenas Tristan, D. Rahmawati Hizbaron, and R. Fitria Putri, 200, p. 05003. doi: 10.1051/e3sconf/202020005003.
+
+
+
+Ramdhoni, S. et al. (2016) Open Green Space Development Priority Based on Distribution of air Temperature Change in Capital City of Indonesia, Jakarta. Procedia environmental sciences. 33204–213. 
+
+
 Rushayati, S. B. et al. (2016) Adaptation Strategy Toward Urban Heat Island at Tropical Urban Area. Procedia environmental sciences. 33221–229. 
 
 Salsabila, S., et al. (2023) Cooling as social practice: heat mitigation and the making of communal space in Jakarta's informal settlements https://dr.ntu.edu.sg/bitstream/10356/171312/2/1-s2.0-S0197397523001844-main.pdf 
+
+
+---
+<div style="position: absolute; top: 20px; right: 40px;">
+  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
+</div>
+
+# Reference 3
 
 See, L., Georgieva, I., Duerauer, M., Kemper, T., Corbane, C., Maffenini, L., Gallego, J., Pesaresi, M., Sirbu, F., Ahmed, R., Blyshchyk, K., Magori, B., Blyshchyk, V., Melnyk, O., Zadorozhniuk, R., Mandici, M.-T., Su, Y.-F., Rabia, A. H., Pérez-Hoyos, A., Vasylyshyn, R., Pawe, C. K., Bilous, S., Kovalevskyi, S. B., Kovalevskyi, S. S., Bordoloi, K., Bilous, A., Panging, K., Bilous, V., Prestele, R., Sahariah, D., Deka, A., Nath, N., Neves, R., Myroniuk, V., Karner, M. and Fritz, S. (2022). ‘A crowdsourced global data set for validating built-up surface layers’. Scientific Data, 9 (1), p. 13. doi: 10.1038/s41597-021-01105-4.
 
@@ -1247,15 +1261,16 @@ Setiowati, R. et al. (2018) Green open space masterplan at Jakarta Capital City,
 
 Simanjuntak, F. et al. (2021) “The development of urban heat island in Jakarta based on satellite observation,” 2021 SPIE. pp. 120820K-120820K – 16. 
 
+Superindo (2019) Soft Opening dengan Berkebun Bersama di Petak Kebun Masing-masing https://www.superindo.co.id/korporasi-keberlanjutan/superindoberkebun/gardening_info_detail/soft_opening_super_indo_berkebun_rooftop_pondok_kelapa_jakarta 
+
+Tassicker, N., Rahnamayiezekavat, P. and Sutrisna, M. (2016). ‘An Insight into the Commercial Viability of Green Roofs in Australia’. Sustainability, 8 (7), p. 603. doi: 10.3390/su8070603.
+
 ---
 <div style="position: absolute; top: 20px; right: 40px;">
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
 </div>
 
-# Reference 3
-Superindo (2019) Soft Opening dengan Berkebun Bersama di Petak Kebun Masing-masing https://www.superindo.co.id/korporasi-keberlanjutan/superindoberkebun/gardening_info_detail/soft_opening_super_indo_berkebun_rooftop_pondok_kelapa_jakarta 
-
-Tassicker, N., Rahnamayiezekavat, P. and Sutrisna, M. (2016). ‘An Insight into the Commercial Viability of Green Roofs in Australia’. Sustainability, 8 (7), p. 603. doi: 10.3390/su8070603.
+# Reference 4
 
 Tong, Z., Whitlow, T. H., Landers, A. and Flanner, B. (2016). ‘A case study of air quality above an urban roof top vegetable farm’. Environmental Pollution, 208, pp. 256–260. doi: 10.1016/j.envpol.2015.07.006.
 
@@ -1265,12 +1280,7 @@ Urban Nature Atlas (2023) Urban Farming Practices in South Jakarta https://una.c
 
 Ulfiasari, S., Yola, L. (2022). How Does Urban Development Contributes to Urban Heat Island: A Decade Increase of Urban Heat Intensity in Jakarta Metropolitan Area. In: Yola, L., Nangkula, U., Ayegbusi, O.G., Awang, M. (eds) Sustainable Architecture and Building Environment. Lecture Notes in Civil Engineering, vol 161. Springer, Singapore.
 
----
-<div style="position: absolute; top: 20px; right: 40px;">
-  <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
-</div>
 
-# Reference 4
 
 Yang, J., Yu, Q. and Gong, P. (2008). ‘Quantifying air pollution removal by green roofs in Chicago’. Atmospheric Environment, 42 (31), pp. 7266–7273. doi: 10.1016/j.atmosenv.2008.07.003.
 
