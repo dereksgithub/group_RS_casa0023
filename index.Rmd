@@ -855,7 +855,7 @@ class: inverse, middle, left
     <td>Urban Temperature</td>
     <td>MODIS, Jakarta’s Historical Temperature Data</td>
     <td>Open-source</td>
-    <td>MODIS: Daily to Monthly, Bands 1–2 – 250 meter. Bands 3–7 – 500 meter. Bands 8–36 – 1000 meter</td>
+    <td>MODIS: Daily to Monthly, Bands 1–2: 250 meter. Bands 3–7: 500 meter. Bands 8: 36 – 1000 meter</td>
     
   </tr>
   <tr>
@@ -870,7 +870,7 @@ class: inverse, middle, left
     <td>Air Quality</td>
     <td>Sentinel-5P, Air quality data of Jakarta</td>
     <td>Open-source</td>
-    <td>Sent 5P: daily, 5.5km x 3.5 km. Other Commercial Remote Sensing Data Air Quality Data. Ground Sensor Data: i.e. AQI(Lead: annual 0.50 μg/m3; PM 2.5: daily 25 μg/m3; PM10: daily 8 μg/m3; SO2: daily 0.02 ppm; NO2: daily 0.12 ppm; etc.),
+    <td>Sent 5P: daily, 5.5km x 3.5 km. Other Commercial Remote Sensing Data Air Quality Data. Ground Sensor Data: i.e. AQI (Lead: annual 0.50 μg/m3; PM 2.5: daily 25 μg/m3; PM10: daily 8 μg/m3; SO2: daily 0.02 ppm; NO2: daily 0.12 ppm; etc.),
    
   
   </tr>
@@ -894,7 +894,7 @@ class: inverse, middle, left
     <td>Rainfall</td>
     <td>Multi-satellite Retrievals for GPM (IMERG), Jakarta ground rainfall records</td>
     <td>Open-source</td>
-    <td>0.1 millimeters (mm) per month</td>
+    <td>0.1 millimeters (mm) | per month</td>
   </tr>
   <tr>
     <td>High resolution Satellite SAR/ Optiacal Imagery</td>
