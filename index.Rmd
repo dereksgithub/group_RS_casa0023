@@ -1097,13 +1097,12 @@ Part of the source data are published [here](https://ee-derekding727.projects.ea
 
 .panel[.panel-name[Model]
 ### Potential Issues
-* Various factors may occasionally hinder the performance of the model.
+* Our hybrid model may be subject to the performance limitations of individual models, impacting the model's overall performance.
 <br>
 
 
 ### Mitigation
-* Remote assistant (reset model, calibration, etc)
-* On-site
+* Provide model calibration services on demand.
 
 ]
 
