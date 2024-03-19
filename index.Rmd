@@ -812,7 +812,7 @@ class: inverse, middle, left
 
 ---
 
-# Modeling Architecture
+# Model Architecture
 
 <div style="position: absolute; top: 20px; right: 40px;">
   <img src="images/team_logo.png" alt="Logo" style="height: 75px; width: auto;">
